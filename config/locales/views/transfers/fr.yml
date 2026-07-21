@@ -1,0 +1,39 @@
+---
+fr:
+  transfers:
+    create:
+      success: Virement créé
+    destroy:
+      success: Virement supprimé
+    form:
+      amount: Montant
+      date: Date
+      expense: Dépense
+      from: De
+      income: Revenu
+      select_account: Sélectionner un compte
+      submit: Créer le virement
+      to: Vers
+      transfer: Virement
+    new:
+      title: Nouveau virement
+    show:
+      delete: Supprimer le virement
+      delete_subtitle: Cette action supprime le virement. Les transactions sous-jacentes
+        ne seront pas supprimées.
+      delete_title: Supprimer le virement ?
+      details: Détails
+      note_label: Notes
+      note_placeholder: Ajouter une note à ce virement
+      overview: Aperçu
+      settings: Paramètres
+      from_label: De
+      to_label: Vers
+      date_label: Date
+      amount_label: Montant
+      category_label: Catégorie
+      uncategorized: Sans catégorie
+    update:
+      success: Virement mis à jour
+    account_links:
+      data_error: "Erreur de données : compte manquant"

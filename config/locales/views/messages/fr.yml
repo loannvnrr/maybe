@@ -1,0 +1,7 @@
+---
+fr:
+  messages:
+    chat_form:
+      coming_soon: Bientôt disponible
+      disclaimer: Les réponses de l'IA sont fournies à titre informatif uniquement et ne constituent pas un conseil financier.
+      placeholder: Posez n'importe quelle question ...

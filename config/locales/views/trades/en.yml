@@ -11,9 +11,16 @@ en:
       submit: Add transaction
       ticker_placeholder: AAPL
       type: Type
+      type_options:
+        buy: Buy
+        deposit: Deposit
+        interest: Interest
+        sell: Sell
+        withdrawal: Withdrawal
     header:
       buy: Buy
       current_market_price_label: Current Market Price
+      linked_with_plaid: Linked with Plaid
       overview: Overview
       purchase_price_label: Purchase Price
       purchase_qty_label: Purchase Quantity
@@ -36,3 +43,4 @@ en:
       note_placeholder: Add any additional notes here...
       quantity_label: Quantity
       settings: Settings
+      type_label: Type

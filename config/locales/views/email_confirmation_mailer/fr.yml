@@ -1,0 +1,10 @@
+---
+fr:
+  email_confirmation_mailer:
+    confirmation_email:
+      body: Vous avez récemment demandé à changer votre adresse e-mail. Cliquez
+        sur le bouton ci-dessous pour confirmer ce changement.
+      cta: Confirmer le changement d'e-mail
+      expiry_notice: Ce lien expirera dans %{hours} heures.
+      greeting: Bonjour !
+      subject: "Maybe : Confirmez votre changement d'e-mail"

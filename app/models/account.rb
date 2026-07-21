@@ -142,6 +142,22 @@ class Account < ApplicationRecord
     accountable_class.long_subtype_label_for(subtype) || accountable_class.display_name
   end
 
+  # French regulated savings accounts (Livret A, LDDS, Livret Jeune, LEP) have a
+  # statutory deposit cap, defined in Depository::REGULATED_SAVINGS.
+  def regulated_savings_info
+    return nil unless accountable_type == "Depository"
+    Depository::REGULATED_SAVINGS[subtype]
+  end
+
+  def regulated_savings_cap
+    regulated_savings_info&.fetch(:cap, nil)
+  end
+
+  def regulated_savings_cap_reached?
+    cap = regulated_savings_cap
+    cap.present? && balance.present? && balance >= cap
+  end
+
   # The balance type determines which "component" of balance is being tracked.
   # This is primarily used for balance related calculations and updates.
   #

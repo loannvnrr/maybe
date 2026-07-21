@@ -1,0 +1,31 @@
+---
+fr:
+  family_merchants:
+    create:
+      error: 'Erreur lors de la création de l''enseigne : %{error}'
+      success: Nouvelle enseigne créée avec succès
+    destroy:
+      success: Enseigne supprimée avec succès
+    edit:
+      title: Modifier l'enseigne
+    form:
+      name_placeholder: Nom de l'enseigne
+    index:
+      empty: Aucune enseigne pour le moment
+      new: Nouvelle enseigne
+      title: Enseignes
+    family_merchant:
+      edit: Modifier
+      delete: Supprimer
+    merchant:
+      confirm_accept: Supprimer l'enseigne
+      confirm_body: Voulez-vous vraiment supprimer cette enseigne ? La suppression
+        de cette enseigne déliera toutes les transactions associées et peut affecter
+        vos rapports.
+      confirm_title: Supprimer l'enseigne ?
+      delete: Supprimer l'enseigne
+      edit: Modifier l'enseigne
+    new:
+      title: Nouvelle enseigne
+    update:
+      success: Enseigne mise à jour avec succès

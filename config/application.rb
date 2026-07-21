@@ -24,6 +24,9 @@ module Maybe
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
 
+    # French market fork: French is the default/primary locale, English remains available.
+    config.i18n.default_locale = :fr
+
     # TODO: This is here for incremental adoption of localization.  This can be removed when all translations are implemented.
     config.i18n.fallbacks = true
 

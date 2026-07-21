@@ -1,14 +1,27 @@
 ---
 en:
   shared:
+    app_version:
+      label: "Version:"
     confirm_modal:
       accept: Confirm
       body_html: "<p>You will not be able to undo this decision</p>"
       cancel: Cancel
       title: Are you sure?
+    custom_confirm:
+      default_title: Are you sure?
+      default_body: This is not reversible.
+      default_confirm: Confirm
+      delete_title: "Delete %{resource}?"
+      delete_body: "Are you sure you want to delete %{resource}? This is not reversible."
+      delete_button: "Delete %{resource}"
     money_field:
       label: Amount
     syncing_notice:
       syncing: Syncing accounts data...
+    transaction_tabs:
+      expense: Expense
+      income: Income
+      transfer: Transfer
     trend_change:
       no_change: "no change"

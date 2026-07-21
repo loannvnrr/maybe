@@ -1,0 +1,22 @@
+---
+fr:
+  transfer_matches:
+    matching_fields:
+      select_method_description: Sélectionnez une méthode pour rapprocher vos transactions.
+      match_existing_option: Rapprocher une transaction existante (recommandé)
+      create_new_option: Créer une nouvelle transaction
+      matching_method_label: Méthode de rapprochement
+      matching_transaction_label: Transaction à rapprocher
+      target_account_label: Compte cible
+      no_candidates_description: Nous n'avons trouvé aucune transaction à rapprocher
+        dans vos autres comptes. Veuillez sélectionner un compte et nous créerons
+        une nouvelle transaction entrante pour vous.
+    new:
+      title: Rapprocher un virement ou un paiement
+      from_account_with_name: "Compte source : %{name}"
+      from_account: Compte source
+      outflow_transaction_label: Transaction sortante
+      to_account_with_name: "Compte destinataire : %{name}"
+      to_account: Compte destinataire
+      inflow_transaction_label: Transaction entrante
+      submit: Créer le rapprochement de virement

@@ -5,47 +5,47 @@
     <% brokerage_cash = reconciliation_dry_run.new_cash_balance || 0 %>
     <% holdings_value = reconciliation_dry_run.new_balance - brokerage_cash %>
 
-    <p>This will <%= action_verb %> the account value on <span class="font-medium text-primary"><%= entry.date.strftime("%B %d, %Y") %></span> to:</p>
+    <p><%= t(".investment_intro_html", action_verb: action_verb, date: entry.date.strftime("%B %d, %Y")) %></p>
 
     <div class="bg-container rounded-lg p-4 space-y-2 border border-primary">
       <div class="flex justify-between">
-        <span>Total account value</span>
+        <span><%= t(".total_account_value") %></span>
         <span class="font-medium text-primary"><%= Money.new(reconciliation_dry_run.new_balance, account.currency).format %></span>
       </div>
       <div class="flex justify-between text-xs">
-        <span>Holdings value</span>
+        <span><%= t(".holdings_value") %></span>
         <span><%= Money.new(holdings_value, account.currency).format %></span>
       </div>
       <div class="flex justify-between text-xs">
-        <span>Brokerage cash</span>
+        <span><%= t(".brokerage_cash") %></span>
         <span class="<%= brokerage_cash.negative? ? "text-red-500" : "text-green-500" %>"><%= Money.new(brokerage_cash, account.currency).format %></span>
       </div>
     </div>
   <% else %>
     <p><%= action_verb.capitalize %>
       <% if account.depository? %>
-        account balance
+        <%= t(".balance_types.depository") %>
       <% elsif account.credit_card? %>
-        credit card balance
+        <%= t(".balance_types.credit_card") %>
       <% elsif account.loan? %>
-        loan balance
+        <%= t(".balance_types.loan") %>
       <% elsif account.property? %>
-        property value
+        <%= t(".balance_types.property") %>
       <% elsif account.vehicle? %>
-        vehicle value
+        <%= t(".balance_types.vehicle") %>
       <% elsif account.crypto? %>
-        crypto balance
+        <%= t(".balance_types.crypto") %>
       <% elsif account.other_asset? %>
-        asset value
+        <%= t(".balance_types.other_asset") %>
       <% elsif account.other_liability? %>
-        liability balance
+        <%= t(".balance_types.other_liability") %>
       <% else %>
-        balance
+        <%= t(".balance_types.default") %>
       <% end %>
-      on <span class="font-medium text-primary"><%= entry.date.strftime("%B %d, %Y") %></span> to
+      <%= t(".on_label") %> <span class="font-medium text-primary"><%= entry.date.strftime("%B %d, %Y") %></span> <%= t(".to_label") %>
       <span class="font-medium text-primary"><%= entry.amount_money.format %></span>.
     </p>
   <% end %>
 
-  <p>All future transactions and balances will be recalculated based on this <%= is_update ? "change" : "update" %>.</p>
+  <p><%= t(".recalculation_notice", noun: is_update ? t(".recalc_noun_change") : t(".recalc_noun_update")) %></p>
 </div>

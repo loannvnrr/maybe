@@ -1,0 +1,65 @@
+---
+fr:
+  valuations:
+    confirm_create:
+      action_verb: définir
+      submit: Confirmer
+      title: Confirmer le nouveau solde
+    confirm_update:
+      action_verb: mettre à jour
+      submit: Mettre à jour
+      title: Mettre à jour le solde
+    confirmation_contents:
+      balance_types:
+        credit_card: solde de la carte de crédit
+        crypto: solde de cryptomonnaie
+        default: solde
+        depository: solde du compte
+        loan: solde du prêt
+        other_asset: valeur de l'actif
+        other_liability: solde du passif
+        property: valeur du bien
+        vehicle: valeur du véhicule
+      brokerage_cash: Liquidités du compte-titres
+      holdings_value: Valeur des positions
+      investment_intro_html: "Ceci va %{action_verb} la valeur du compte le <span
+        class=\"font-medium text-primary\">%{date}</span> à :"
+      on_label: le
+      recalc_noun_change: modification
+      recalc_noun_update: mise à jour
+      recalculation_notice: Toutes les transactions et soldes futurs seront recalculés
+        en fonction de cette %{noun}.
+      to_label: à
+      total_account_value: Valeur totale du compte
+    form:
+      amount: Montant
+      submit: Ajouter une mise à jour du solde
+    header:
+      balance: Solde
+    index:
+      change: variation
+      date: date
+      new_entry: Nouvelle entrée
+      no_valuations: Aucune évaluation pour ce compte pour le moment
+      valuations: Valeur
+      value: valeur
+    new:
+      title: Nouveau solde
+      amount: Montant
+      submit: Ajouter une mise à jour du solde
+    show:
+      amount: Montant
+      amount_date_label: Valeur du compte à cette date
+      date_label: Date
+      delete: Supprimer
+      delete_resource_name: la mise à jour du solde
+      delete_subtitle: Cette action est irréversible
+      delete_title: Supprimer l'entrée
+      details: Détails
+      name_label: Nom
+      name_placeholder: Saisissez un nom pour cette entrée
+      note_label: Notes
+      note_placeholder: Ajoutez des détails complémentaires sur cette entrée
+      overview: Aperçu
+      settings: Paramètres
+      update_value: Mettre à jour la valeur

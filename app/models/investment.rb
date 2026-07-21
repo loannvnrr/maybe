@@ -12,8 +12,12 @@ class Investment < ApplicationRecord
     "mutual_fund" => { short: "Mutual Fund", long: "Mutual Fund" },
     "ira" => { short: "IRA", long: "Traditional IRA" },
     "roth_ira" => { short: "Roth IRA", long: "Roth IRA" },
-    "angel" => { short: "Angel", long: "Angel" }
+    "angel" => { short: "Angel", long: "Angel" },
+    "pea" => { short: "PEA", long: "Plan d'Épargne en Actions" }
   }.freeze
+
+  # Plafond légal des versements (hors gains) sur un PEA.
+  PEA_VERSEMENT_CAP = 150_000
 
   class << self
     def color

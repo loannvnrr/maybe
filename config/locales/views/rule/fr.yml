@@ -1,0 +1,10 @@
+---
+fr:
+  rule:
+    conditions:
+      condition:
+        number_placeholder: "10"
+        value_placeholder: Saisissez une valeur
+    actions:
+      action:
+        value_placeholder: Saisissez une valeur

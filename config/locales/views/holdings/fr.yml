@@ -1,0 +1,41 @@
+---
+fr:
+  holdings:
+    cash:
+      brokerage_cash: Liquidités du compte-titres
+    destroy:
+      success: Position supprimée
+    holding:
+      per_share: par action
+      shares: "%{qty} actions"
+    index:
+      average_cost: Coût moyen
+      holdings: Positions
+      name: Nom
+      new_holding: Nouvelle transaction
+      no_holdings: Aucune position à afficher.
+      return: Rendement total
+      weight: Poids
+    missing_price_tooltip:
+      description: Il manque des valeurs pour ce placement, nous n'avons donc pas
+        pu calculer son rendement ou sa valeur.
+      missing_data: Données manquantes
+    new:
+      coming_soon: Bientôt disponible...
+    show:
+      avg_cost_label: Coût moyen
+      current_market_price_label: Cours actuel
+      delete: Supprimer
+      delete_subtitle: Cette action supprimera la position ainsi que toutes les
+        transactions associées sur ce compte. Cette action est irréversible.
+      delete_title: Supprimer la position
+      history: Historique
+      no_trade_history: Aucun historique de transactions disponible pour cette
+        position.
+      overview: Aperçu
+      portfolio_weight_label: Poids dans le portefeuille
+      settings: Paramètres
+      ticker_label: Symbole
+      trade_history_entry: "%{qty} actions de %{security} à %{price}"
+      total_return_label: Rendement total
+      unknown: Inconnu

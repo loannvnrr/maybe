@@ -1,0 +1,24 @@
+---
+fr:
+  impersonation_sessions:
+    approval_bar:
+      access_session: Accès en cours
+      access_request: Demande d'accès
+      pending_notice: L'équipe support de Maybe a demandé l'accès à votre compte (probablement pour vous aider dans le cadre d'une demande d'assistance). Si vous approuvez cette demande, toute action effectuée sera enregistrée à des fins de sécurité et d'audit.
+      approve: Approuver
+      reject: Refuser
+      in_progress_notice: Un membre de l'équipe Maybe Finance consulte actuellement vos données. Vous pouvez mettre fin à cette session à tout moment.
+      end_session: Mettre fin à la session
+      error_notice: Une erreur s'est produite. Veuillez nous contacter.
+    approve:
+      success: Demande approuvée
+    complete:
+      success: Session terminée
+    create:
+      success: Demande envoyée à l'utilisateur. En attente d'approbation.
+    join:
+      success: Session rejointe
+    leave:
+      success: Session quittée
+    reject:
+      success: Demande refusée

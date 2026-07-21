@@ -10,3 +10,11 @@ en:
         mfa_description: Add an extra layer of security to your account by requiring
           a code from your authenticator app when signing in
         mfa_title: Two-Factor Authentication
+        mfa_enabled_status: Two-factor authentication is
+        mfa_disabled_status: Two-factor authentication is
+        mfa_enabled: enabled
+        mfa_disabled: disabled
+        mfa_enabled_description: Your account is protected with an additional layer
+          of security.
+        mfa_disabled_description: Enable 2FA to add an extra layer of security to
+          your account.

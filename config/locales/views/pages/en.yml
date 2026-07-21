@@ -2,8 +2,35 @@
 en:
   pages:
     changelog:
+      date_unavailable: Date unavailable
+      no_release_notes: No release notes available
       title: What's new
     dashboard:
+      balance_sheet:
+        add_accounts_prompt: Add your %{classification} accounts to see a full
+          breakdown
+        name: Name
+        no_accounts: No %{classification} yet
+        value: Value
+        weight: Weight
+      cashflow_sankey:
+        add_transaction: Add transaction
+        no_data_subtitle: Add transactions to display cash flow data or expand
+          the time period
+        no_data_title: No cash flow data for this time period
+        title: Cashflow
+      header:
+        new_account: New
+        shutdown_notice:
+          export_data_html: You have until July 31, 2025 to export your data.
+            You can do that %{link}.
+          export_link: here
+          intro: "We've made a tough decision to shut down the hosted version of
+            Maybe. Here's what's happening next:"
+          read_why: Read why we're doing this here
+          refunded: You will be refunded in full.
+        subtitle: Here's what's happening with your finances
+        welcome: Welcome back, %{name}
       net_worth_chart:
         data_not_available: Data not available for the selected period
         title: Net Worth
@@ -12,3 +39,28 @@ en:
         no_account_subtitle: Since no accounts have been added, there's no data to
           display. Add your first accounts to start viewing dashboard data.
         no_account_title: No accounts yet
+      no_accounts_graph_placeholder:
+        add_account: Add account
+        subtitle: Add accounts to display net worth data
+        title: No accounts yet
+    feedback:
+      bug_report: File a bug report
+      discord: Discuss Maybe with others
+      feature_request: Write a feature request
+      heading: Leave feedback
+      subtitle: Let us know if you have any specific feedback. Feel free to
+        include links to videos or screenshots.
+      title: Feedback
+    redis_configuration_error:
+      heading: Redis Configuration Required
+      refresh_button: Refresh Page
+      refresh_hint: Once you've configured Redis, refresh this page to continue.
+      setup_guide_hint: Follow our complete Docker setup guide to configure Redis
+      subtitle: Your self-hosted Maybe installation needs Redis to be properly
+        configured.
+      title: Redis Configuration Required - Maybe
+      view_setup_guide: View Setup Guide
+      why_body: Maybe uses Redis to power Sidekiq background jobs for tasks like
+        syncing account data, processing imports, and other background
+        operations that keep your financial data up to date.
+      why_title: Why is Redis required?

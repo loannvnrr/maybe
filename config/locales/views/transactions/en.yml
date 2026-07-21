@@ -7,6 +7,7 @@ en:
       amount: Amount
       category: Category
       category_prompt: Select a Category
+      details: Details
       date: Date
       description: Description
       description_placeholder: Describe transaction
@@ -23,6 +24,7 @@ en:
     show:
       account_label: Account
       amount: Amount
+      delete_resource_name: transaction
       category_label: Category
       date_label: Date
       delete: Delete
@@ -40,22 +42,92 @@ en:
       settings: Settings
       tags_label: Tags
       uncategorized: "(uncategorized)"
+      expense: Expense
+      income: Income
+      exclude: Exclude
+      exclude_description: Excluded transactions will be removed from budgeting
+        calculations and reports.
+      one_time_title: "One-time %{type}"
+      one_time_description: One-time transactions will be excluded from certain
+        budgeting calculations and reports to help you see what's really important.
+      transfer_or_debt_title: Transfer or Debt Payment?
+      transfer_or_debt_description: Transfers and payments are special types of
+        transactions that indicate money movement between 2 accounts.
+      open_matcher: Open matcher
     header:
       edit_categories: Edit categories
       edit_imports: Edit imports
       edit_merchants: Edit merchants
       edit_tags: Edit tags
       import: Import
+      linked_with_plaid: Linked with Plaid
     index:
       transaction: transaction
       transactions: transactions
+      title: Transactions
+      new_rule: New rule
+      edit_rules: Edit rules
+      new_transaction: New transaction
+      import: Import
+      category: category
+      amount: amount
+    summary:
+      total_transactions: Total transactions
+      income: Income
+      expenses: Expenses
+    transaction:
+      one_time_tooltip: "One-time %{type} (excluded from averages)"
+      income_type: income
+      expense_type: expense
+      loan_payment: Loan Payment
+      transfer: Transfer
+    selection_bar:
+      edit: Edit
+      delete: Delete
+    transfer_match:
+      confirm_match: Confirm match
+      reject_match: Reject match
+      auto_matched: Auto-matched
+      confirmed: "%{type} is confirmed"
+      type_payment: Payment
+      type_transfer: Transfer
+    bulk_updates:
+      new:
+        title: Edit transactions
+        overview: Overview
+        transactions_title: Transactions
+        date_label: Date
+        category_prompt: Select a category
+        category_label: Category
+        merchant_prompt: Select a merchant
+        merchant_label: Merchant
+        tags_include_blank: None
+        tags_label: Tags
+        notes_label: Notes
+        notes_placeholder: Enter a note that will be applied to selected transactions
+        cancel: Cancel
+        save: Save
     searches:
+      form:
+        search_placeholder: Search transactions ...
+        filter: Filter
       filters:
+        account_filter:
+          placeholder: Filter accounts
         amount_filter:
           equal_to: Equal to
           greater_than: Greater than
           less_than: Less than
           placeholder: '0'
+        category_filter:
+          placeholder: Filter category
+        merchant_filter:
+          placeholder: Filter merchants
+        tag_filter:
+          placeholder: Filter tags
+        date_filter:
+          start_date_placeholder: Start date
+          end_date_placeholder: End date
         badge:
           expense: Expense
           income: Income

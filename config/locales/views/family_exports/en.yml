@@ -1,0 +1,21 @@
+---
+en:
+  family_exports:
+    list:
+      download: Download
+      empty: No exports yet
+      export_from: "Export from %{date}"
+      exporting: Exporting...
+      failed: Failed
+    new:
+      cancel: Cancel
+      included_accounts: All accounts and balances
+      included_categories: Categories and tags
+      included_title: "What's included:"
+      included_trades: Investment trades
+      included_transactions: Transaction history
+      note_body: This export includes all of your data, but only some of the data can be imported back into Maybe via the CSV import feature. We support account, transaction (with category and tags), and trade imports. Other account data cannot be imported and is for your records only.
+      note_label: "Note:"
+      submit: Export data
+      subtitle: Download all your financial data
+      title: Export your data

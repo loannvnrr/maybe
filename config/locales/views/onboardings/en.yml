@@ -1,9 +1,31 @@
 ---
 en:
   onboardings:
+    goals:
+      goal_ai_insights: Let AI help me understand my finances
+      goal_budgeting: Manage financial plans and budgeting
+      goal_cashflow: Understand cashflow and expenses
+      goal_investments: Track investments
+      goal_optimization: Analyze and optimize accounts
+      goal_partner: Manage finances with a partner
+      goal_reduce_stress: Reduce financial stress or anxiety
+      goal_unified_accounts: See all my accounts in one place
+      submit: Next
+      subtitle: Select one or more goals that you have with using Maybe as your
+        personal finance tool.
+      title: What brings you to Maybe?
     header:
       sign_out: Log out
+    logout:
+      sign_out: Sign out
+    onboarding_nav:
+      steps:
+        goals: Goals
+        preferences: Preferences
+        setup: Setup
+        start: Start
     preferences:
+      as_of: as of %{date}
       currency: Currency
       date_format: Date format
       example: Example account
@@ -11,6 +33,10 @@ en:
       preview: Preview how data displays based on preferences.
       submit: Complete
       subtitle: Let's configure your preferences.
+      theme_dark: Dark
+      theme_label: Color theme
+      theme_light: Light
+      theme_system: System
       title: Configure your preferences
     profile:
       country: Country
@@ -22,7 +48,42 @@ en:
       subtitle: Let's complete your profile.
       title: Let's set up the basics
     show:
+      country_label: Country
+      first_name_label: First name
+      first_name_placeholder: First name
+      heading: Let's set up your account
+      household_name_label: Household name
+      household_name_placeholder: Household name
+      last_name_label: Last name
+      last_name_placeholder: Last name
       message: We’re really excited you’re here. In the next step we’ll ask you a
         few questions to complete your profile and then get you all set up.
       setup: Set up account
+      subheading: First things first, let's get your profile set up.
+      submit: Continue
       title: Meet Maybe
+    trial:
+      continue_trial: Continue trial
+      day_13_body: We'll notify you to remind you when your trial will end.
+      day_13_label: In 13 days (%{date})
+      day_14_body: Your trial ends — subscribe to continue using Maybe
+      day_14_label: In 14 days (%{date})
+      feature_ai_chat: Unlimited access and chats with Maybe AI
+      feature_currencies: Multiple currencies and near global coverage
+      feature_early_access: Early access to newly released features
+      feature_institutions: More than 10,000 institutions to connect to
+      feature_manual_tracking: Manual account tracking that works well
+      feature_performance: Performance and investment returns across portfolio
+      feature_support: Priority human support from team
+      feature_transactions: Comprehensive transaction tracking experience
+      feature_unlimited_accounts: Connect unlimited accounts and account types
+      how_it_works: How your trial will work
+      no_credit_card: No credit card required
+      start_trial: Try Maybe for 14 days
+      today_body: You'll get free access to Maybe for 14 days
+      today_label: Today
+      trial_subtitle: Starting the trial activates your account for Maybe.  You
+        won't need to enter payment details.
+      trial_title: Try Maybe for 14 days.
+      upgrade: Upgrade
+      whats_included: Here's what's included

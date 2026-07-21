@@ -1,0 +1,94 @@
+---
+fr:
+  onboardings:
+    goals:
+      goal_ai_insights: Laissez l'IA vous aider à comprendre vos finances
+      goal_budgeting: Gérer vos plans financiers et votre budget
+      goal_cashflow: Comprendre vos flux de trésorerie et vos dépenses
+      goal_investments: Suivre vos investissements
+      goal_optimization: Analyser et optimiser vos comptes
+      goal_partner: Gérer les finances avec un partenaire
+      goal_reduce_stress: Réduire le stress ou l'anxiété financière
+      goal_unified_accounts: Voir tous mes comptes au même endroit
+      submit: Suivant
+      subtitle: Sélectionnez un ou plusieurs objectifs que vous souhaitez
+        atteindre en utilisant Maybe comme outil de gestion de finances
+        personnelles.
+      title: Qu'est-ce qui vous amène sur Maybe ?
+    header:
+      sign_out: Se déconnecter
+    logout:
+      sign_out: Se déconnecter
+    onboarding_nav:
+      steps:
+        goals: Objectifs
+        preferences: Préférences
+        setup: Profil
+        start: Démarrage
+    preferences:
+      as_of: au %{date}
+      currency: Devise
+      date_format: Format de date
+      example: Compte d'exemple
+      locale: Langue
+      preview: Aperçu de l'affichage des données selon vos préférences.
+      submit: Terminer
+      subtitle: Configurons vos préférences.
+      theme_dark: Sombre
+      theme_label: Thème de couleur
+      theme_light: Clair
+      theme_system: Système
+      title: Configurez vos préférences
+    profile:
+      country: Pays
+      first_name: Prénom
+      household_name: Nom du foyer
+      last_name: Nom
+      profile_image: Photo de profil
+      submit: Continuer
+      subtitle: Complétons votre profil.
+      title: Configurons les bases
+    show:
+      country_label: Pays
+      first_name_label: Prénom
+      first_name_placeholder: Prénom
+      heading: Configurons votre compte
+      household_name_label: Nom du foyer
+      household_name_placeholder: Nom du foyer
+      last_name_label: Nom
+      last_name_placeholder: Nom
+      message: Nous sommes ravis de vous compter parmi nous. À l'étape suivante,
+        nous vous poserons quelques questions pour compléter votre profil, puis
+        tout sera prêt.
+      setup: Configurer le compte
+      subheading: Commençons par configurer votre profil.
+      submit: Continuer
+      title: Découvrez Maybe
+    trial:
+      continue_trial: Continuer l'essai
+      day_13_body: Nous vous préviendrons pour vous rappeler la fin de votre essai.
+      day_13_label: Dans 13 jours (%{date})
+      day_14_body: Votre essai se termine — abonnez-vous pour continuer à
+        utiliser Maybe
+      day_14_label: Dans 14 jours (%{date})
+      feature_ai_chat: Accès illimité et discussions avec l'IA Maybe
+      feature_currencies: Plusieurs devises et une couverture quasi mondiale
+      feature_early_access: Accès anticipé aux nouvelles fonctionnalités
+      feature_institutions: Plus de 10 000 établissements auxquels vous connecter
+      feature_manual_tracking: Un suivi manuel des comptes qui fonctionne bien
+      feature_performance: Performance et rendements des investissements sur
+        l'ensemble du portefeuille
+      feature_support: Assistance humaine prioritaire de la part de l'équipe
+      feature_transactions: Une expérience de suivi des transactions complète
+      feature_unlimited_accounts: Connectez un nombre illimité de comptes et de
+        types de comptes
+      how_it_works: Comment fonctionne votre essai
+      no_credit_card: Aucune carte bancaire requise
+      start_trial: Essayez Maybe pendant 14 jours
+      today_body: Vous bénéficiez d'un accès gratuit à Maybe pendant 14 jours
+      today_label: Aujourd'hui
+      trial_subtitle: Le démarrage de l'essai active votre compte Maybe. Vous
+        n'aurez pas besoin de renseigner vos informations de paiement.
+      trial_title: Essayez Maybe pendant 14 jours.
+      upgrade: Passer à l'abonnement
+      whats_included: Voici ce qui est inclus

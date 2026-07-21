@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2025_07_24_115507) do
+ActiveRecord::Schema[7.2].define(version: 2026_07_21_000002) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pgcrypto"
   enable_extension "plpgsql"
@@ -216,6 +216,7 @@ ActiveRecord::Schema[7.2].define(version: 2025_07_24_115507) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.jsonb "locked_attributes", default: {}
+    t.decimal "interest_rate", precision: 10, scale: 3
   end
 
   create_table "entries", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
@@ -257,11 +258,11 @@ ActiveRecord::Schema[7.2].define(version: 2025_07_24_115507) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "currency", default: "USD"
-    t.string "locale", default: "en"
+    t.string "currency", default: "EUR"
+    t.string "locale", default: "fr"
     t.string "stripe_customer_id"
-    t.string "date_format", default: "%m-%d-%Y"
-    t.string "country", default: "US"
+    t.string "date_format", default: "%d/%m/%Y"
+    t.string "country", default: "FR"
     t.string "timezone"
     t.boolean "data_enrichment_enabled", default: false
     t.boolean "early_access", default: false

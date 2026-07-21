@@ -1,0 +1,12 @@
+---
+fr:
+  depositories:
+    edit:
+      edit: "Modifier %{account}"
+    form:
+      none: Aucun
+      subtype_prompt: Sélectionner le type de compte
+      interest_rate: Taux d'intérêt annuel (%)
+      interest_rate_placeholder: "2.5"
+    new:
+      title: Saisir le solde du compte

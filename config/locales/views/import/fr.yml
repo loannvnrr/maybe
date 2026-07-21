@@ -1,0 +1,183 @@
+---
+fr:
+  import:
+    cleans:
+      show:
+        title: Nettoyez vos données
+        description: Modifiez vos données dans le tableau ci-dessous. Les cellules
+          rouges sont invalides.
+        errors_notice: Vos données contiennent des erreurs. Survolez l'erreur pour
+          voir les détails.
+        errors_notice_mobile: Vos données contiennent des erreurs. Appuyez sur l'infobulle
+          d'erreur pour voir les détails.
+        cleaned_notice: Vos données ont été nettoyées
+        next_step: Étape suivante
+        all_rows: Toutes les lignes
+        error_rows: Lignes en erreur
+    configurations:
+      show:
+        title: Configurez votre import
+        description: Sélectionnez les colonnes correspondant à chaque champ de votre
+          fichier CSV.
+        sample_data_caption: Exemple de données de votre fichier CSV importé
+        template_found_title: Configuration modèle trouvée
+        template_found_description: Nous avons trouvé une configuration issue d'un
+          import précédent pour ce compte. Souhaitez-vous l'appliquer à cet import
+          ?
+        manually_configure: Configurer manuellement
+        apply_template: Appliquer le modèle
+      account_import:
+        entity_type_label: Type d'entité
+        entity_type_blank: Laisser vide
+        name_label: Nom
+        name_blank: Laisser vide
+        balance_label: Solde
+        balance_blank: Laisser vide
+        currency_label: Devise
+        currency_blank: Par défaut
+        submit: Appliquer la configuration
+      mint_import:
+        preconfigured_notice: Nous avons préconfiguré votre import Mint pour vous.
+          Veuillez passer à l'étape suivante.
+        date_label: Date
+        date_blank: Laisser vide
+        date_format_label: Format de date
+        amount_label: Montant
+        amount_blank: Laisser vide
+        incomes_negative: Les revenus sont négatifs
+        incomes_positive: Les revenus sont positifs
+        currency_label: Devise
+        currency_blank: Laisser vide
+        format_label: Format
+        format_prompt: Sélectionner un format
+        account_label: Compte (facultatif)
+        account_blank: Laisser vide
+        name_optional_label: Nom (facultatif)
+        name_optional_blank: Laisser vide
+        category_label: Catégorie (facultative)
+        category_blank: Laisser vide
+        tags_label: Étiquettes (facultatives)
+        tags_blank: Laisser vide
+        submit: Appliquer la configuration
+      trade_import:
+        date_label: Date
+        date_blank: Sélectionner une colonne
+        date_format_label: Format de date
+        quantity_label: Quantité
+        quantity_blank: Sélectionner une colonne
+        buys_positive: Les achats sont en quantité positive
+        buys_negative: Les achats sont en quantité négative
+        currency_label: Devise
+        currency_blank: Par défaut
+        format_label: Format
+        format_prompt: Sélectionner un format
+        ticker_label: Symbole boursier
+        ticker_blank: Sélectionner une colonne
+        exchange_label: Code de la bourse
+        exchange_blank: Laisser vide
+        price_label: Prix
+        price_blank: Sélectionner une colonne
+        account_label: Compte
+        account_blank: Laisser vide
+        name_label: Nom
+        name_blank: Laisser vide
+        security_provider_note_label: "Remarque :"
+        security_provider_note: Le fournisseur de cours boursiers n'est pas configuré.
+          Vos imports de transactions boursières fonctionneront, mais Maybe ne pourra
+          pas reconstituer l'historique des prix. Veuillez vous rendre dans vos paramètres
+          pour le configurer.
+        submit: Appliquer la configuration
+      transaction_import:
+        date_label: Date
+        date_prompt: Sélectionner une colonne
+        date_format_label: Format de date
+        date_format_prompt: Sélectionner un format
+        amount_label: Montant
+        amount_prompt: Sélectionner une colonne
+        currency_label: Devise
+        currency_blank: Par défaut
+        format_label: Format
+        format_prompt: Sélectionner un format
+        amount_type_strategy_label: Stratégie de type de montant
+        amount_type_strategy_prompt: Sélectionner une stratégie
+        amount_type_strategies:
+          signed_amount: Montant signé
+          custom_column: Colonne personnalisée
+        amount_type_label: Type de montant
+        amount_type_prompt: Sélectionner une convention
+        incomes_positive: Les revenus sont positifs
+        incomes_negative: Les revenus sont négatifs
+        set: Définir
+        entity_type_prompt: Sélectionner une colonne
+        as_amount_type_column: comme colonne de type de montant
+        amount_type_inflow_value_prompt: Sélectionner une colonne
+        as_income_inflow_value: comme valeur « revenu » (entrée)
+        account_label: Compte
+        account_blank: Laisser vide
+        name_label: Nom
+        name_blank: Laisser vide
+        category_label: Catégorie
+        category_blank: Laisser vide
+        tags_label: Étiquettes
+        tags_blank: Laisser vide
+        notes_label: Notes
+        notes_blank: Laisser vide
+        submit: Appliquer la configuration
+    confirms:
+      mappings:
+        create_account: Créer un compte
+        csv_mapping_label: "%{mapping} dans le CSV"
+        maybe_mapping_label: "%{mapping} dans Maybe"
+        no_accounts: Vous n'avez encore aucun compte. Veuillez créer un compte que
+          nous pourrons utiliser pour les lignes (non assignées) de votre CSV, ou
+          revenir à l'étape de nettoyage et indiquer un nom de compte à utiliser.
+        rows_label: Lignes
+        unassigned_account: Besoin de créer un nouveau compte pour les lignes non
+          assignées ?
+        next: Suivant
+      show:
+        step_number: "Étape %{number}"
+        account_mapping_description: Associez tous les comptes de votre fichier importé
+          aux comptes existants de Maybe. Vous pouvez aussi ajouter de nouveaux comptes
+          ou les laisser sans catégorie.
+        account_mapping_title: Associez vos comptes
+        account_type_mapping_description: Associez tous les types de compte de votre
+          fichier importé à ceux de Maybe
+        account_type_mapping_title: Associez vos types de compte
+        category_mapping_description: Associez toutes les catégories de votre fichier
+          importé aux catégories existantes de Maybe. Vous pouvez aussi ajouter de
+          nouvelles catégories ou les laisser sans catégorie.
+        category_mapping_title: Associez vos catégories
+        tag_mapping_description: Associez toutes les étiquettes de votre fichier importé
+          aux étiquettes existantes de Maybe. Vous pouvez aussi ajouter de nouvelles
+          étiquettes ou les laisser sans catégorie.
+        tag_mapping_title: Associez vos étiquettes
+    mappings:
+      form:
+        unassigned: (non assigné)
+        select_option: Sélectionner une option
+        leave_unassigned: Laisser non assigné
+    uploads:
+      show:
+        title: Importez vos données
+        description: Collez ou téléversez votre fichier CSV ci-dessous. Veuillez consulter
+          les instructions dans le tableau ci-dessous avant de commencer.
+        instructions_1: Voici un exemple de CSV avec les colonnes disponibles pour
+          l'import.
+        instructions_2: Votre CSV doit comporter une ligne d'en-tête
+        instructions_3: Vous pouvez nommer vos colonnes comme vous le souhaitez. Vous
+          les associerez à une étape ultérieure.
+        instructions_4: Les colonnes marquées d'un astérisque (*) sont des données
+          requises.
+        instructions_5: Aucune virgule, aucun symbole monétaire et aucune parenthèse
+          dans les nombres.
+        upload_csv_tab: Importer un CSV
+        copy_paste_tab: Copier-coller
+        account_label: Compte (facultatif)
+        account_blank: Import multi-comptes
+        browse: Parcourir
+        browse_hint: pour ajouter votre fichier CSV ici
+        paste_placeholder: Collez ici le contenu de votre fichier CSV
+        submit_upload: Importer un CSV
+        download_sample_csv: Télécharger un exemple de CSV
+        download_sample_csv_hint: pour voir le format CSV requis

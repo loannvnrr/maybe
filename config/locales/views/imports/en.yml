@@ -59,16 +59,50 @@ en:
     empty:
       message: No imports yet.
       new: New import
+    failure:
+      title: Import failed
+      description: Please check that your file format, for any errors and that
+        all required fields are filled, then come back and try again.
+      try_again: Try again
+    importing:
+      title: Import in progress
+      description: Your import is in progress. Check the imports menu for status
+        updates or click 'Check Status' to refresh the page for updates. Feel
+        free to continue using the app.
+      check_status: Check status
+      back_to_dashboard: Back to dashboard
+    revert_failure:
+      title: Reverting import failed
+      description: Please try again or contact support.
+      try_again: Try again
+    success:
+      title: Import successful
+      description: Your imported data has been successfully added to the app and
+        is now ready for use.
+      back_to_dashboard: Back to dashboard
+    nav:
+      step_upload: Upload
+      step_configure: Configure
+      step_clean: Clean
+      step_map: Map
+      step_confirm: Confirm
+      step_progress: "Step %{current} of %{total}"
     import:
       complete: Complete
       delete: Delete
+      delete_resource_name: import
       failed: Failed
+      revert: Revert
       in_progress: In progress
       label: "%{type}: %{datetime}"
       revert_failed: Revert failed
       reverting: Reverting
       uploading: Processing rows
       view: View
+      revert_confirm_title: Revert import?
+      revert_confirm_body: This will delete transactions that were imported, but
+        you will still be able to review and re-import your data at any time.
+      revert_confirm_btn: Revert
     index:
       imports: Imports
       new: New import
@@ -78,6 +112,7 @@ en:
         of our import templates like Mint.
       import_accounts: Import accounts
       import_mint: Import from Mint
+      mint_logo_alt: Mint logo
       import_portfolio: Import investments
       import_transactions: Import transactions
       resume: Resume %{type}
@@ -87,3 +122,6 @@ en:
       description: Here's a summary of the new items that will be added to your account
         once you publish this import.
       title: Confirm your import data
+      item_header: item
+      count_header: count
+      publish_import: Publish import

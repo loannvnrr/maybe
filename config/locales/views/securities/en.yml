@@ -1,0 +1,5 @@
+---
+en:
+  securities:
+    combobox_security:
+      flag_alt: "%{country_code} flag"

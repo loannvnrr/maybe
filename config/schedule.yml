@@ -18,3 +18,9 @@ run_security_health_checks:
   class: "SecurityHealthCheckJob"
   queue: "scheduled"
   description: "Runs security health checks to detect issues with security data"
+
+post_regulated_savings_interest:
+  cron: "0 3 1 * *" # 3:00 AM on the 1st of every month
+  class: "RegulatedSavingsInterestJob"
+  queue: "scheduled"
+  description: "Posts monthly interest on French regulated savings accounts (Livret A, LDDS, Livret Jeune, LEP)"

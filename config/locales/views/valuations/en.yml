@@ -1,6 +1,36 @@
 ---
 en:
   valuations:
+    confirm_create:
+      action_verb: set
+      submit: Confirm
+      title: Confirm new balance
+    confirm_update:
+      action_verb: update
+      submit: Update
+      title: Update balance
+    confirmation_contents:
+      balance_types:
+        credit_card: credit card balance
+        crypto: crypto balance
+        default: balance
+        depository: account balance
+        loan: loan balance
+        other_asset: asset value
+        other_liability: liability balance
+        property: property value
+        vehicle: vehicle value
+      brokerage_cash: Brokerage cash
+      holdings_value: Holdings value
+      investment_intro_html: "This will %{action_verb} the account value on <span
+        class=\"font-medium text-primary\">%{date}</span> to:"
+      on_label: "on"
+      recalc_noun_change: change
+      recalc_noun_update: update
+      recalculation_notice: All future transactions and balances will be recalculated
+        based on this %{noun}.
+      to_label: "to"
+      total_account_value: Total account value
     form:
       amount: Amount
       submit: Add balance update
@@ -15,10 +45,14 @@ en:
       value: value
     new:
       title: New balance
+      amount: Amount
+      submit: Add balance update
     show:
       amount: Amount
+      amount_date_label: Account value on date
       date_label: Date
       delete: Delete
+      delete_resource_name: value update
       delete_subtitle: This action cannot be undone
       delete_title: Delete Entry
       details: Details
@@ -28,3 +62,4 @@ en:
       note_placeholder: Add any additional details about this entry
       overview: Overview
       settings: Settings
+      update_value: Update value

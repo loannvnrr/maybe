@@ -1,0 +1,128 @@
+---
+fr:
+  settings:
+    billings:
+      show:
+        page_title: Facturation
+        subscription_subtitle: Mettez à jour votre abonnement et vos informations
+          de facturation
+        subscription_title: Gérer l'abonnement
+        subscribed_to_prefix: Vous êtes actuellement abonné à
+        renews_on_prefix: Votre abonnement se renouvelle le
+        trialing: Vous bénéficiez actuellement d'un essai de Maybe
+        days_remaining: "(%{days} jours restants)"
+        not_subscribed_prefix: Vous êtes actuellement
+        not_subscribed_emphasis: non abonné
+        not_subscribed_description: Une fois abonné à Maybe+, vous verrez vos paramètres
+          de facturation ici.
+        manage: Gérer
+        choose_plan: Choisir une offre
+        billing_via_stripe: Facturation via Stripe
+    preferences:
+      show:
+        country: Pays
+        currency: Devise
+        date_format: Format de date
+        general_subtitle: Configurez vos préférences
+        general_title: Général
+        default_period: Période par défaut
+        language: Langue
+        page_title: Préférences
+        theme_dark: Sombre
+        theme_light: Clair
+        theme_subtitle: Choisissez un thème préféré pour l'application
+        theme_system: Système
+        theme_title: Thème
+        timezone: Fuseau horaire
+        theme_preview_alt: "Aperçu du thème %{theme}"
+    profiles:
+      destroy:
+        cannot_remove_self: Vous ne pouvez pas vous retirer vous-même du compte.
+        member_removal_failed: Un problème est survenu lors du retrait du membre.
+        member_removed: Le membre a été retiré avec succès.
+        not_authorized: Vous n'êtes pas autorisé à retirer des membres.
+      show:
+        unconfirmed_email_notice: Vous avez demandé à changer votre e-mail vers
+          %{email}. Veuillez consulter cet e-mail et confirmer le changement pour
+          qu'il prenne effet.
+        data_import_export_title: Import/Export de données
+        delete_resource_name: votre compte
+        export_data: Exporter les données
+        confirm_reset_generic:
+          title: Réinitialiser le compte ?
+          body: Cette action supprimera toutes les données associées à votre compte.
+            Votre profil utilisateur restera actif.
+          btn_text: Réinitialiser le compte
+        confirm_delete:
+          body: Voulez-vous vraiment supprimer définitivement votre compte ? Cette
+            action est irréversible.
+          title: Supprimer le compte ?
+        confirm_reset:
+          body: Voulez-vous vraiment réinitialiser votre compte ? Cela supprimera
+            tous vos comptes, catégories, enseignes, étiquettes et autres données.
+            Cette action est irréversible.
+          title: Réinitialiser le compte ?
+        confirm_remove_invitation:
+          body: Voulez-vous vraiment retirer l'invitation pour %{email} ?
+          title: Retirer l'invitation
+        confirm_remove_member:
+          body: Voulez-vous vraiment retirer %{name} de votre compte ?
+          title: Retirer le membre
+        danger_zone_title: Zone de danger
+        delete_account: Supprimer le compte
+        delete_account_warning: La suppression de votre compte supprimera définitivement
+          toutes vos données et est irréversible.
+        reset_account: Réinitialiser le compte
+        reset_account_warning: La réinitialisation de votre compte supprimera tous
+          vos comptes, catégories, enseignes, étiquettes et autres données, mais
+          conservera votre compte utilisateur.
+        email: E-mail
+        first_name: Prénom
+        household_form_input_placeholder: Saisir le nom du foyer
+        household_form_label: Nom du foyer
+        household_subtitle: Invitez des membres de votre famille, des partenaires
+          et d'autres personnes. Les invités peuvent se connecter à votre foyer
+          et accéder à vos comptes partagés.
+        household_title: Foyer
+        invitation_link: Lien d'invitation
+        invite_member: Ajouter un membre
+        last_name: Nom
+        page_title: Compte
+        pending: En attente
+        profile_subtitle: Personnalisez votre apparence sur Maybe
+        profile_title: Profil
+        remove_invitation: Retirer l'invitation
+        remove_member: Retirer le membre
+        save: Enregistrer
+    securities:
+      show:
+        page_title: Sécurité
+    settings_nav:
+      back: Retour
+      accounts_label: Comptes
+      api_key_label: Clé API
+      billing_label: Facturation
+      categories_label: Catégories
+      feedback_label: Retour d'expérience
+      general_section_title: Général
+      imports_label: Imports
+      logout: Déconnexion
+      merchants_label: Enseignes
+      other_section_title: Plus
+      preferences_label: Préférences
+      profile_label: Compte
+      rules_label: Règles
+      security_label: Sécurité
+      self_hosting_label: Auto-hébergement
+      tags_label: Étiquettes
+      transactions_section_title: Transactions
+      whats_new_label: Nouveautés
+    settings_nav_link_large:
+      next: Suivant
+      previous: Retour
+    user_avatar_field:
+      accepted_formats: JPG ou PNG. 5 Mo max.
+      choose: Téléverser une photo
+      choose_label: (facultatif)
+      change: Changer la photo
+      preview_alt: Aperçu

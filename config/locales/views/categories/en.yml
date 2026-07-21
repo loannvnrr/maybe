@@ -14,13 +14,25 @@ en:
       edit: Edit category
     form:
       placeholder: Category name
+      color_heading: Color
+      icon_heading: Icon
+      poor_contrast_warning: Poor contrast, choose darker color or
+      auto_adjust: auto-adjust.
+      classification_label: Classification
+      classification_income: Income
+      classification_expense: Expense
+      name_label: Name
+      parent_unassigned: (unassigned)
+      parent_label: Parent category (optional)
     index:
       bootstrap: Use defaults (recommended)
       categories: Categories
+      delete_all_resource_name: all categories
       categories_expenses: Expense categories
       categories_incomes: Income categories
       empty: No categories found
       new: New category
+      delete_all: Delete all
     menu:
       loading: Loading...
     new:

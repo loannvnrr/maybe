@@ -7,6 +7,7 @@ en:
       success: Accounts scheduled for deletion.
     plaid_item:
       add_new: Add new connection
+      deletion_in_progress: (deletion in progress...)
       confirm_accept: Delete institution
       confirm_body: This will permanently delete all the accounts in this group and
         all associated data.

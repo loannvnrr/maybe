@@ -6,6 +6,17 @@ en:
         page_title: Billing
         subscription_subtitle: Update your subscription and billing details
         subscription_title: Manage subscription
+        subscribed_to_prefix: You are currently subscribed to the
+        renews_on_prefix: Your plan renews on
+        trialing: You are currently trialing Maybe
+        days_remaining: "(%{days} days remaining)"
+        not_subscribed_prefix: You are currently
+        not_subscribed_emphasis: not subscribed
+        not_subscribed_description: Once you subscribe to Maybe+, you'll see your
+          billing settings here.
+        manage: Manage
+        choose_plan: Choose plan
+        billing_via_stripe: Billing via Stripe
     preferences:
       show:
         country: Country
@@ -22,6 +33,7 @@ en:
         theme_system: System
         theme_title: Theme
         timezone: Timezone
+        theme_preview_alt: "%{theme} Theme Preview"
     profiles:
       destroy:
         cannot_remove_self: You cannot remove yourself from the account.
@@ -29,6 +41,16 @@ en:
         member_removed: Member was successfully removed.
         not_authorized: You are not authorized to remove members.
       show:
+        unconfirmed_email_notice: You have requested to change your email to %{email}.
+          Please go to your email and confirm for the change to take effect.
+        data_import_export_title: Data Import/Export
+        delete_resource_name: your account
+        export_data: Export data
+        confirm_reset_generic:
+          title: Reset account?
+          body: This will delete all data associated with your account. Your user
+            profile will remain active.
+          btn_text: Reset account
         confirm_delete:
           body: Are you sure you want to permanently delete your account? This action
             is irreversible.
@@ -69,6 +91,7 @@ en:
       show:
         page_title: Security
     settings_nav:
+      back: Back
       accounts_label: Accounts
       api_key_label: API Key
       billing_label: Billing
@@ -95,3 +118,4 @@ en:
       choose: Upload photo
       choose_label: (optional)
       change: Change photo
+      preview_alt: Preview

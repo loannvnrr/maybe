@@ -1,0 +1,156 @@
+---
+fr:
+  transactions:
+    form:
+      account: Compte
+      account_prompt: Sélectionner un compte
+      amount: Montant
+      category: Catégorie
+      category_prompt: Sélectionner une catégorie
+      details: Détails
+      date: Date
+      description: Description
+      description_placeholder: Décrire la transaction
+      expense: Dépense
+      income: Revenu
+      none: (aucun)
+      note_label: Notes
+      note_placeholder: Ajouter une note
+      submit: Ajouter la transaction
+      tags_label: Étiquettes
+      transfer: Virement
+    new:
+      new_transaction: Nouvelle transaction
+    show:
+      account_label: Compte
+      amount: Montant
+      delete_resource_name: cette transaction
+      category_label: Catégorie
+      date_label: Date
+      delete: Supprimer
+      delete_subtitle: Cette action supprime définitivement la transaction, affecte
+        vos soldes historiques et est irréversible.
+      delete_title: Supprimer la transaction
+      details: Détails
+      merchant_label: Enseigne
+      name_label: Nom
+      nature: Type
+      none: "(aucun)"
+      note_label: Notes
+      note_placeholder: Ajouter une note
+      overview: Aperçu
+      settings: Paramètres
+      tags_label: Étiquettes
+      uncategorized: "(sans catégorie)"
+      expense: Dépense
+      income: Revenu
+      exclude: Exclure
+      exclude_description: Les transactions exclues seront retirées des calculs
+        de budget et des rapports.
+      one_time_title: "Ponctuel : %{type}"
+      one_time_description: Les transactions ponctuelles seront exclues de certains
+        calculs de budget et rapports pour vous aider à voir ce qui compte vraiment.
+      transfer_or_debt_title: Virement ou remboursement de dette ?
+      transfer_or_debt_description: Les virements et paiements sont des types
+        particuliers de transactions qui indiquent un mouvement d'argent entre
+        2 comptes.
+      open_matcher: Ouvrir l'outil de rapprochement
+    header:
+      edit_categories: Modifier les catégories
+      edit_imports: Modifier les imports
+      edit_merchants: Modifier les enseignes
+      edit_tags: Modifier les étiquettes
+      import: Importer
+      linked_with_plaid: Lié via Plaid
+    index:
+      transaction: transaction
+      transactions: transactions
+      title: Transactions
+      new_rule: Nouvelle règle
+      edit_rules: Modifier les règles
+      new_transaction: Nouvelle transaction
+      import: Importer
+      category: catégorie
+      amount: montant
+    summary:
+      total_transactions: Total des transactions
+      income: Revenus
+      expenses: Dépenses
+    transaction:
+      one_time_tooltip: "Ponctuel (%{type}, exclu des moyennes)"
+      income_type: revenu
+      expense_type: dépense
+      loan_payment: Remboursement de prêt
+      transfer: Virement
+    selection_bar:
+      edit: Modifier
+      delete: Supprimer
+    transfer_match:
+      confirm_match: Confirmer le rapprochement
+      reject_match: Rejeter le rapprochement
+      auto_matched: Rapproché automatiquement
+      confirmed: "%{type} est confirmé"
+      type_payment: Paiement
+      type_transfer: Virement
+    bulk_updates:
+      new:
+        title: Modifier les transactions
+        overview: Aperçu
+        transactions_title: Transactions
+        date_label: Date
+        category_prompt: Sélectionner une catégorie
+        category_label: Catégorie
+        merchant_prompt: Sélectionner une enseigne
+        merchant_label: Enseigne
+        tags_include_blank: Aucune
+        tags_label: Étiquettes
+        notes_label: Notes
+        notes_placeholder: Ajouter une note qui sera appliquée aux transactions sélectionnées
+        cancel: Annuler
+        save: Enregistrer
+    searches:
+      form:
+        search_placeholder: Rechercher des transactions...
+        filter: Filtrer
+      filters:
+        account_filter:
+          placeholder: Filtrer les comptes
+        amount_filter:
+          equal_to: Égal à
+          greater_than: Supérieur à
+          less_than: Inférieur à
+          placeholder: '0'
+        category_filter:
+          placeholder: Filtrer les catégories
+        merchant_filter:
+          placeholder: Filtrer les enseignes
+        tag_filter:
+          placeholder: Filtrer les étiquettes
+        date_filter:
+          start_date_placeholder: Date de début
+          end_date_placeholder: Date de fin
+        badge:
+          expense: Dépense
+          income: Revenu
+          on_or_after: à partir du %{date}
+          on_or_before: jusqu'au %{date}
+          transfer: Virement
+        type_filter:
+          expense: Dépense
+          income: Revenu
+          transfer: Virement
+      menu:
+        account_filter: Compte
+        amount_filter: Montant
+        apply: Appliquer
+        cancel: Annuler
+        category_filter: Catégorie
+        clear_filters: Effacer les filtres
+        date_filter: Date
+        merchant_filter: Enseigne
+        tag_filter: Étiquette
+        type_filter: Type
+      search:
+        equal_to: égal à
+        greater_than: supérieur à
+        less_than: inférieur à

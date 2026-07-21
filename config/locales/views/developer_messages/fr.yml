@@ -1,0 +1,5 @@
+fr:
+  developer_messages:
+    developer_message:
+      debug_label: Message de débogage (usage interne uniquement)
+      system_label: Instruction système (envoyée à l'IA)

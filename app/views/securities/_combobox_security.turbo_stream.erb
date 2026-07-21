@@ -13,7 +13,7 @@
       <div class="flex items-center bg-container-inset rounded-sm px-1.5 py-1 gap-1">
         <%= image_tag("https://hatscripts.github.io/circle-flags/flags/#{combobox_security.country_code.downcase}.svg",
                       class: "h-4 rounded-sm", # h-3 (12px) matches text-xs, w-5 for 3:5 aspect ratio
-                      alt: "#{combobox_security.country_code.upcase} flag",
+                      alt: t(".flag_alt", country_code: combobox_security.country_code.upcase),
                       title: combobox_security.country_code.upcase) %>
         <span class="text-xs text-secondary">
           <%= combobox_security.country_code.upcase %>

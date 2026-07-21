@@ -1,13 +1,30 @@
 ---
 en:
   layouts:
+    application:
+      nav:
+        assistant: Assistant
+        budgets: Budgets
+        home: Home
+        transactions: Transactions
+      trial:
+        days_remaining: "%{count} days remaining"
+        free_trial: Free trial
+        upgrade: Upgrade
     auth:
       existing_account: Already have an account?
       no_account: New to Maybe?
       sign_in: Sign in
       sign_up: Create account
       your_account: Your account
+    doorkeeper:
+      application:
+        title: Maybe Authorization
     shared:
+      confirm_dialog:
+        body: This action cannot be undone.
+        confirm: Confirm
+        title: Are you sure?
       footer:
         privacy_policy: Privacy Policy
         terms_of_service: Terms of Service

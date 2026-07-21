@@ -11,9 +11,11 @@ en:
     form:
       placeholder: Tag name
     index:
+      delete_all_resource_name: all tags
       empty: No tags yet
       new: New tag
       tags: Tags
+      delete_all: Delete all
     new:
       new: New tag
     tag:

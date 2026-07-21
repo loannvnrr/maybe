@@ -1,0 +1,47 @@
+---
+fr:
+  trades:
+    form:
+      account: Compte de virement (facultatif)
+      account_prompt: Rechercher un compte
+      amount: Montant
+      holding: Symbole boursier
+      price: Prix par action
+      qty: Quantité
+      submit: Ajouter la transaction
+      ticker_placeholder: AAPL
+      type: Type
+      type_options:
+        buy: Achat
+        deposit: Dépôt
+        interest: Intérêts
+        sell: Vente
+        withdrawal: Retrait
+    header:
+      buy: Achat
+      current_market_price_label: Cours actuel
+      linked_with_plaid: Lié via Plaid
+      overview: Aperçu
+      purchase_price_label: Prix d'achat
+      purchase_qty_label: Quantité achetée
+      sell: Vente
+      symbol_label: Symbole
+      total_return_label: Plus/moins-value latente
+    new:
+      title: Nouvelle transaction
+    show:
+      additional: Informations complémentaires
+      cost_per_share_label: Coût par action
+      date_label: Date
+      delete: Supprimer
+      delete_subtitle: Cette action est irréversible
+      delete_title: Supprimer la transaction
+      details: Détails
+      exclude_subtitle: Cette transaction ne sera pas incluse dans les rapports
+        et calculs
+      exclude_title: Exclure des analyses
+      note_label: Note
+      note_placeholder: Ajoutez des notes complémentaires ici...
+      quantity_label: Quantité
+      settings: Paramètres
+      type_label: Type

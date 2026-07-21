@@ -1,0 +1,218 @@
+---
+fr:
+  accounts:
+    account:
+      complete_setup: Terminer la configuration
+      troubleshoot: Résoudre le problème
+    accountable_group:
+      new_item:
+        credit_card: Nouvelle carte de crédit
+        crypto: Nouvelle cryptomonnaie
+        depository: Nouveau compte bancaire
+        investment: Nouveau placement
+        loan: Nouveau prêt
+        other_asset: Nouvel actif
+        other_liability: Nouveau passif
+        property: Nouveau bien immobilier
+        vehicle: Nouveau véhicule
+    balance_reconciliation:
+      default:
+        start_balance:
+          label: Solde de début
+          tooltip: Le solde du compte au début de cette journée
+        net_cash_flow:
+          label: Flux net de trésorerie
+          tooltip: Variation nette du solde liée à toutes les transactions de la journée
+        end_balance:
+          label: Solde de fin
+          tooltip: Le solde calculé après toutes les transactions
+        adjustments:
+          label: Ajustements
+          tooltip: Rapprochements manuels ou autres ajustements
+        final_balance:
+          label: Solde final
+          tooltip: Le solde final du compte pour la journée
+      credit_card:
+        start_balance:
+          label: Solde de début
+          tooltip: Le solde dû au début de cette journée
+        charges:
+          label: Débits
+          tooltip: Nouveaux débits effectués pendant la journée
+        payments:
+          label: Paiements
+          tooltip: Paiements effectués sur la carte pendant la journée
+        end_balance:
+          label: Solde de fin
+          tooltip: Le solde calculé après toutes les transactions
+        adjustments:
+          label: Ajustements
+          tooltip: Rapprochements manuels ou autres ajustements
+        final_balance:
+          label: Solde final
+          tooltip: Le solde dû final pour la journée
+      investment:
+        start_balance:
+          label: Solde de début
+          tooltip: La valeur totale du portefeuille au début de cette journée
+        brokerage_cash_change:
+          label: Variation de la trésorerie du compte-titres
+          tooltip: Variation nette de trésorerie liée aux dépôts, retraits et opérations
+        holdings_trading_change:
+          label: Variation des positions (achats/ventes)
+          tooltip: Impact des achats et ventes de titres sur les positions
+        holdings_market_change:
+          label: Variation des positions (évolution du marché)
+          tooltip: Variation de la valeur des positions liée à l'évolution des cours
+        end_balance:
+          label: Solde de fin
+          tooltip: Le solde calculé après toute l'activité
+        adjustments:
+          label: Ajustements
+          tooltip: Rapprochements manuels ou autres ajustements
+        final_balance:
+          label: Solde final
+          tooltip: La valeur finale du portefeuille pour la journée
+      loan:
+        start_principal:
+          label: Capital de début
+          tooltip: Le capital restant dû au début de cette journée
+        net_principal_change:
+          label: Variation nette du capital
+          tooltip: Remboursements et nouveaux emprunts effectués pendant la journée
+        end_principal:
+          label: Capital de fin
+          tooltip: Le capital calculé après toutes les transactions
+        adjustments:
+          label: Ajustements
+          tooltip: Rapprochements manuels ou autres ajustements
+        final_principal:
+          label: Capital final
+          tooltip: Le capital restant dû final pour la journée
+      asset:
+        start_value:
+          label: Valeur de début
+          tooltip: La valeur du bien au début de cette journée
+        net_value_change:
+          label: Variation nette de valeur
+          tooltip: Toutes les variations de valeur, y compris améliorations et dépréciation
+        end_value:
+          label: Valeur de fin
+          tooltip: La valeur calculée après tous les changements
+        adjustments:
+          label: Ajustements
+          tooltip: Ajustements manuels de valeur ou expertises
+        final_value:
+          label: Valeur finale
+          tooltip: La valeur finale du bien pour la journée
+      crypto:
+        start_balance:
+          label: Solde de début
+          tooltip: La valeur des cryptomonnaies détenues au début de cette journée
+        buys:
+          label: Achats
+          tooltip: Achats de cryptomonnaies effectués pendant la journée
+        sells:
+          label: Ventes
+          tooltip: Ventes de cryptomonnaies effectuées pendant la journée
+        market_changes:
+          label: Variations de marché
+          tooltip: Variations de valeur liées à l'évolution des cours
+        end_balance:
+          label: Solde de fin
+          tooltip: Le solde calculé après toute l'activité
+        adjustments:
+          label: Ajustements
+          tooltip: Rapprochements manuels ou autres ajustements
+        final_balance:
+          label: Solde final
+          tooltip: La valeur finale des cryptomonnaies détenues pour la journée
+    account_sidebar_tabs:
+      add_synth_key: Ajoutez votre clé API Synth ici.
+      all_tab: Tous
+      assets_tab: Actifs
+      debts_tab: Dettes
+      missing_data_description: Maybe utilise l'API Synth pour récupérer les taux
+        de change historiques, les cours des titres et bien plus encore. Ces données
+        sont nécessaires pour calculer avec précision l'historique des soldes de compte.
+      missing_data_title: Données historiques manquantes
+      new_account: Nouveau compte
+      new_asset: Nouvel actif
+      new_debt: Nouvelle dette
+    chart:
+      data_not_available: Données non disponibles pour la période sélectionnée
+      no_data_available: Aucune donnée disponible
+    create:
+      success: "%{type} compte créé"
+    destroy:
+      success: "%{type} compte programmé pour suppression"
+    empty:
+      empty_message: Ajoutez un compte par connexion, import ou saisie manuelle.
+      new_account: Nouveau compte
+      no_accounts: Aucun compte pour le moment
+    form:
+      balance: Solde actuel
+      name_label: Nom du compte
+      name_placeholder: Exemple de nom de compte
+    index:
+      accounts: Comptes
+      manual_accounts:
+        other_accounts: Autres comptes
+      new_account: Nouveau compte
+      sync: Tout synchroniser
+    new:
+      container:
+        close_hint: Fermer
+        navigate_hint: Naviguer
+        next: Suivant
+        previous: Précédent
+        select_hint: Sélectionner
+      import_accounts: Importer des comptes
+      method_selector:
+        connected_entry: Lier un compte
+        connected_entry_eu: Lier un compte européen
+        manual_entry: Saisir le solde du compte
+        title: Comment souhaitez-vous l'ajouter ?
+      title: Que souhaitez-vous ajouter ?
+    show:
+      regulated_savings_cap_alert: "Ce compte a atteint son plafond réglementaire de %{cap}. Tout dépôt supplémentaire devra être placé ailleurs."
+      activity:
+        amount: Montant
+        balance: Solde
+        date: Date
+        end_of_day_balance_tooltip: Le solde de fin de journée, après toutes les
+          transactions et ajustements
+        entries: entrées
+        entry: entrée
+        new: Nouveau
+        new_balance: Nouveau solde
+        new_transaction: Nouvelle transaction
+        no_balance_data: Aucune donnée de solde disponible pour cette date
+        no_entries: Aucune entrée trouvée
+        no_entries_yet: Aucune entrée pour le moment
+        search_placeholder: Rechercher des entrées par nom
+        title: Activité
+      chart:
+        balance: Solde
+        owed: Montant dû
+      menu:
+        confirm_accept: Supprimer « %{name} »
+        delete_resource_name: ce compte
+        confirm_body_html: "<p>En supprimant ce compte, vous effacerez son historique
+          de valeur, ce qui affectera divers aspects de l'ensemble de votre compte.
+          Cette action aura un impact direct sur le calcul de votre patrimoine net
+          et sur les graphiques du compte.</p><br /> <p>Après la suppression, il
+          ne sera plus possible de restaurer les informations du compte : vous devrez
+          l'ajouter à nouveau comme un nouveau compte.</p>"
+        confirm_title: Supprimer le compte ?
+        delete: Supprimer le compte
+        edit: Modifier
+        import: Importer des transactions
+        manage: Gérer les comptes
+    update:
+      success: "%{type} compte mis à jour"
+  email_confirmations:
+    new:
+      invalid_token: Lien de confirmation invalide ou expiré.
+      success_login: Votre adresse e-mail a été confirmée. Veuillez vous connecter
+        avec votre nouvelle adresse e-mail.

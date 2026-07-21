@@ -1,0 +1,135 @@
+---
+fr:
+  import:
+    cleans:
+      show:
+        description: Modifiez vos données dans le tableau ci-dessous. Les cellules
+          rouges sont invalides.
+        errors_notice: Vos données contiennent des erreurs. Survolez l'erreur pour
+          voir les détails.
+        errors_notice_mobile: Vos données contiennent des erreurs. Appuyez sur l'infobulle
+          d'erreur pour voir les détails.
+        title: Nettoyez vos données
+    configurations:
+      mint_import:
+        date_format_label: Format de date
+      show:
+        description: Sélectionnez les colonnes correspondant à chaque champ de votre
+          fichier CSV.
+        title: Configurez votre import
+      trade_import:
+        date_format_label: Format de date
+      transaction_import:
+        date_format_label: Format de date
+    confirms:
+      mappings:
+        create_account: Créer un compte
+        csv_mapping_label: "%{mapping} dans le CSV"
+        maybe_mapping_label: "%{mapping} dans Maybe"
+        no_accounts: Vous n'avez encore aucun compte. Veuillez créer un compte que
+          nous pourrons utiliser pour les lignes (non assignées) de votre CSV, ou
+          revenir à l'étape de nettoyage et indiquer un nom de compte à utiliser.
+        rows_label: Lignes
+        unassigned_account: Besoin de créer un nouveau compte pour les lignes non
+          assignées ?
+      show:
+        account_mapping_description: Associez tous les comptes de votre fichier importé
+          aux comptes existants de Maybe. Vous pouvez aussi ajouter de nouveaux
+          comptes ou les laisser sans catégorie.
+        account_mapping_title: Associez vos comptes
+        account_type_mapping_description: Associez tous les types de compte de votre
+          fichier importé à ceux de Maybe
+        account_type_mapping_title: Associez vos types de compte
+        category_mapping_description: Associez toutes les catégories de votre fichier
+          importé aux catégories existantes de Maybe. Vous pouvez aussi ajouter
+          de nouvelles catégories ou les laisser sans catégorie.
+        category_mapping_title: Associez vos catégories
+        tag_mapping_description: Associez toutes les étiquettes de votre fichier
+          importé aux étiquettes existantes de Maybe. Vous pouvez aussi ajouter
+          de nouvelles étiquettes ou les laisser sans catégorie.
+        tag_mapping_title: Associez vos étiquettes
+    uploads:
+      show:
+        description: Collez ou téléversez votre fichier CSV ci-dessous. Veuillez
+          consulter les instructions dans le tableau ci-dessous avant de commencer.
+        instructions_1: Voici un exemple de CSV avec les colonnes disponibles pour
+          l'import.
+        instructions_2: Votre CSV doit comporter une ligne d'en-tête
+        instructions_3: Vous pouvez nommer vos colonnes comme vous le souhaitez.
+          Vous les associerez à une étape ultérieure.
+        instructions_4: Les colonnes marquées d'un astérisque (*) sont des données
+          requises.
+        instructions_5: Aucune virgule, aucun symbole monétaire et aucune parenthèse
+          dans les nombres.
+        title: Importez vos données
+  imports:
+    empty:
+      message: Aucun import pour le moment.
+      new: Nouvel import
+    failure:
+      title: Échec de l'import
+      description: Veuillez vérifier le format de votre fichier, l'absence d'erreurs
+        et que tous les champs requis sont remplis, puis réessayez.
+      try_again: Réessayer
+    importing:
+      title: Import en cours
+      description: Votre import est en cours. Consultez le menu des imports pour
+        connaître son statut ou cliquez sur « Vérifier le statut » pour actualiser
+        la page. Vous pouvez continuer à utiliser l'application.
+      check_status: Vérifier le statut
+      back_to_dashboard: Retour au tableau de bord
+    revert_failure:
+      title: Échec de l'annulation de l'import
+      description: Veuillez réessayer ou contacter le support.
+      try_again: Réessayer
+    success:
+      title: Import réussi
+      description: Vos données importées ont été ajoutées avec succès à l'application
+        et sont maintenant prêtes à être utilisées.
+      back_to_dashboard: Retour au tableau de bord
+    nav:
+      step_upload: Téléverser
+      step_configure: Configurer
+      step_clean: Nettoyer
+      step_map: Associer
+      step_confirm: Confirmer
+      step_progress: "Étape %{current} sur %{total}"
+    import:
+      complete: Terminé
+      delete: Supprimer
+      delete_resource_name: cet import
+      failed: Échoué
+      revert: Annuler
+      in_progress: En cours
+      label: "%{type} : %{datetime}"
+      revert_failed: Annulation échouée
+      reverting: Annulation en cours
+      uploading: Traitement des lignes
+      view: Voir
+      revert_confirm_title: Annuler l'import ?
+      revert_confirm_body: Cette action supprimera les transactions qui ont été
+        importées, mais vous pourrez toujours consulter et réimporter vos données
+        à tout moment.
+      revert_confirm_btn: Annuler
+    index:
+      imports: Imports
+      new: Nouvel import
+      title: Imports
+    new:
+      description: Vous pouvez importer manuellement différents types de données
+        via CSV ou utiliser l'un de nos modèles d'import comme Mint.
+      import_accounts: Importer des comptes
+      import_mint: Importer depuis Mint
+      mint_logo_alt: Logo Mint
+      import_portfolio: Importer des investissements
+      import_transactions: Importer des transactions
+      resume: Reprendre %{type}
+      sources: Sources
+      title: Nouvel import CSV
+    ready:
+      description: Voici un résumé des nouveaux éléments qui seront ajoutés à votre
+        compte une fois cet import publié.
+      title: Confirmez vos données d'import
+      item_header: élément
+      count_header: quantité
+      publish_import: Publier l'import

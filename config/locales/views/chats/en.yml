@@ -1,0 +1,38 @@
+en:
+  chats:
+    index:
+      title: Chats
+      new_chat: New chat
+    ai_avatar:
+      alt: AI
+    ai_consent:
+      title: Enable Maybe AI
+      description: Maybe AI can answer financial questions and provide insights based on your data. To use this feature you'll need to explicitly enable it.
+      self_hosted_html: To use the AI assistant, you need to set the %{env_var} environment variable in your self-hosted instance.
+      enable_button: Enable Maybe AI
+      footer_note: Disable anytime. All data sent to our LLM providers is anonymized.
+    ai_greeting:
+      greeting: "Hey %{name}! I'm an AI built by Maybe to help with your finances. I have access to the web and your account data."
+      default_name: there
+      commands_hint_html: 'You can use <span class="bg-container border border-secondary px-1.5 py-0.5 rounded font-mono text-xs">/</span> to access commands'
+      questions_intro: "Here's a few questions you can ask:"
+      question_portfolio: Evaluate investment portfolio
+      question_spending: Show spending insights
+      question_patterns: Find unusual patterns
+    chat:
+      edit_chat_title: Edit chat title
+      delete_chat: Delete chat
+      delete_resource_name: chat
+    chat_nav:
+      all_chats: All chats
+      start_new_chat: Start new chat
+      delete_resource_name: chat
+      edit_chat_title: Edit chat title
+      delete_chat: Delete chat
+    chat_title:
+      new_chat: New chat
+    error:
+      failed_message: "Failed to generate response. Please try again."
+      retry: Retry
+    thinking_indicator:
+      default_message: "Thinking ..."

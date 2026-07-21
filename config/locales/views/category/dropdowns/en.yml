@@ -9,3 +9,7 @@ en:
         clear: Clear category
         no_categories: No categories found
         search_placeholder: Search
+        match_transfer_payment: Match transfer/payment
+        one_time_tooltip: "One-time %{type}"
+        income_type: income
+        expense_type: expense

@@ -1,0 +1,45 @@
+---
+fr:
+  budgets:
+    actuals_summary:
+      expenses: Dépenses
+      income: Revenus
+    budget_categories:
+      amount: Montant
+      categories: Catégories
+    budget_donut:
+      new_budget: Nouveau budget
+      of_amount: "sur %{amount}"
+      spent: Dépensé
+      unused: Non utilisé
+    budget_header:
+      today: Aujourd'hui
+    budget_nav:
+      categories: Catégories
+      setup: Configuration
+    budgeted_summary:
+      budgeted: Budgété
+      earned_amount: "%{amount} gagnés"
+      expected_income: Revenus prévus
+      left_amount: "%{amount} restants"
+      over_amount: "%{amount} de trop"
+      spent_amount: "%{amount} dépensés"
+    edit:
+      autosuggest_description: Ceci sera basé sur l'historique de vos transactions.
+        L'IA peut faire des erreurs, vérifiez avant de continuer.
+      autosuggest_title: Suggestion automatique du budget revenus et dépenses
+      budgeted_spending: Dépenses budgétées
+      expected_income: Revenus prévus
+      submit: Continuer
+      subtitle: Saisissez vos revenus mensuels et vos dépenses prévues ci-dessous
+        pour configurer votre budget.
+      title: Configurez votre budget
+    over_allocation_warning:
+      fix_allocations: Corriger les allocations
+      message: Vous avez alloué plus que votre budget disponible. Veuillez corriger
+        vos allocations.
+    show:
+      actuals_tab: Réel
+      budgeted_tab: Budgété
+      categories: Catégories
+      edit: Modifier

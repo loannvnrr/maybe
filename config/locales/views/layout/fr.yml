@@ -1,0 +1,30 @@
+---
+fr:
+  layouts:
+    application:
+      nav:
+        assistant: Assistant
+        budgets: Budgets
+        home: Accueil
+        transactions: Transactions
+      trial:
+        days_remaining: "%{count} jours restants"
+        free_trial: Essai gratuit
+        upgrade: Passer à l'abonnement
+    auth:
+      existing_account: Vous avez déjà un compte ?
+      no_account: Nouveau sur Maybe ?
+      sign_in: Se connecter
+      sign_up: Créer un compte
+      your_account: Votre compte
+    doorkeeper:
+      application:
+        title: Autorisation Maybe
+    shared:
+      confirm_dialog:
+        body: Cette action est irréversible.
+        confirm: Confirmer
+        title: Êtes-vous sûr ?
+      footer:
+        privacy_policy: Politique de confidentialité
+        terms_of_service: Conditions d'utilisation
