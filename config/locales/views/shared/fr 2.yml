@@ -1,0 +1,27 @@
+---
+fr:
+  shared:
+    app_version:
+      label: "Version :"
+    confirm_modal:
+      accept: Confirmer
+      body_html: "<p>Vous ne pourrez pas annuler cette décision</p>"
+      cancel: Annuler
+      title: Êtes-vous sûr ?
+    custom_confirm:
+      default_title: Êtes-vous sûr(e) ?
+      default_body: Cette action est irréversible.
+      default_confirm: Confirmer
+      delete_title: "Supprimer %{resource} ?"
+      delete_body: "Voulez-vous vraiment supprimer %{resource} ? Cette action est irréversible."
+      delete_button: "Supprimer %{resource}"
+    money_field:
+      label: Montant
+    syncing_notice:
+      syncing: Synchronisation des données des comptes...
+    transaction_tabs:
+      expense: Dépense
+      income: Revenu
+      transfer: Virement
+    trend_change:
+      no_change: "aucun changement"

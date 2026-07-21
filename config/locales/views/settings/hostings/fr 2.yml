@@ -1,0 +1,44 @@
+---
+fr:
+  settings:
+    hostings:
+      invite_code_settings:
+        description: Chaque nouvel utilisateur qui rejoint votre instance de Maybe
+          ne peut le faire que via un code d'invitation
+        email_confirmation_description: Lorsque activé, les utilisateurs doivent
+          confirmer leur adresse e-mail lorsqu'ils la modifient.
+        email_confirmation_title: Exiger la confirmation de l'e-mail
+        generate_tokens: Générer un nouveau code
+        generated_tokens: Codes générés
+        title: Exiger un code d'invitation pour l'inscription
+      show:
+        general: Paramètres généraux
+        invites: Codes d'invitation
+        title: Auto-hébergement
+        danger_zone: Zone de danger
+        clear_cache: Vider le cache de données
+        clear_cache_warning: Vider le cache de données supprimera tous les taux de
+          change, les cours des titres, les soldes de comptes et autres données.
+          Cela ne supprimera pas les comptes, transactions, catégories ou autres
+          données appartenant à l'utilisateur.
+        confirm_clear_cache:
+          title: Vider le cache de données ?
+          body: Voulez-vous vraiment vider le cache de données ? Cela supprimera
+            tous les taux de change, les cours des titres, les soldes de comptes
+            et autres données. Cette action est irréversible.
+      synth_settings:
+        api_calls_used: "%{used} / %{limit} appels API utilisés (%{percentage})"
+        description: Saisissez la clé API fournie par Synth
+        env_var_configured: Vous avez configuré avec succès votre clé API Synth
+          via la variable d'environnement SYNTH_API_KEY.
+        label: Clé API
+        placeholder: Saisissez votre clé API ici
+        plan: "Forfait %{plan}"
+        title: Paramètres Synth
+      update:
+        failure: Valeur de paramètre invalide
+        success: Paramètres mis à jour
+      clear_cache:
+        cache_cleared: Le cache de données a été vidé. Cela peut prendre quelques
+          instants.
+      not_authorized: Vous n'êtes pas autorisé à effectuer cette action

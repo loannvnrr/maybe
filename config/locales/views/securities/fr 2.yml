@@ -1,0 +1,5 @@
+---
+fr:
+  securities:
+    combobox_security:
+      flag_alt: "Drapeau %{country_code}"

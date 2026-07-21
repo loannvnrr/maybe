@@ -1,0 +1,43 @@
+---
+fr:
+  budget_categories:
+    allocation_progress:
+      budget_exceeded_html: Budget dépassé de <span class="text-red-500">%{amount}</span>
+      left_to_allocate: restant à allouer
+      over_100_percent: "> 100 % défini"
+      percent_set: "%{percent} défini"
+    budget_category:
+      avg_amount: "%{amount} en moyenne"
+      from_amount: "sur %{amount}"
+      left_amount: "%{amount} restants"
+      over_amount: "%{amount} de trop"
+    budget_category_form:
+      avg_monthly: "%{amount}/mois en moyenne"
+    confirm_button:
+      confirm: Confirmer
+    index:
+      subtitle: Ajustez les budgets par catégorie pour définir des limites de
+        dépenses. Les fonds non alloués seront automatiquement affectés en non
+        catégorisé.
+      title: Modifiez vos budgets par catégorie
+    no_categories:
+      description: Vous n'avez pas encore créé ni associé de catégories de dépenses
+        à vos transactions.
+      new_category: Nouvelle catégorie
+      title: Oups !
+      use_defaults: Utiliser les catégories par défaut (recommandé)
+    show:
+      avg_monthly_spending: Dépenses mensuelles moyennes
+      budgeted: Budgété
+      category_label: Catégorie
+      left: restants
+      median_monthly_spending: Dépenses mensuelles médianes
+      no_transactions: Aucune transaction trouvée pour cette période budgétaire.
+      overspent: de dépassement
+      overview_section: Aperçu
+      recent_transactions_section: Transactions récentes
+      spending: "Dépenses de %{month}"
+      status: Statut
+      view_all_transactions: Voir toutes les transactions de la catégorie
+    uncategorized_budget_category_form:
+      avg_monthly: "%{amount}/mois en moyenne"

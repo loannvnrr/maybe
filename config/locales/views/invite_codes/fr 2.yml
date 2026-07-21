@@ -1,0 +1,7 @@
+---
+fr:
+  invite_codes:
+    index:
+      invite_code_description: Générez un nouveau code pour le voir s'afficher
+        ici. Les codes générés qui ont été utilisés ne seront plus affichés.
+      no_invite_codes: Aucun code à afficher

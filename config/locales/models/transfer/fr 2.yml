@@ -1,0 +1,23 @@
+---
+fr:
+  activerecord:
+    errors:
+      models:
+        transfer:
+          attributes:
+            base:
+              inflow_cannot_be_in_multiple_transfers: La transaction entrante ne
+                peut pas faire partie de plusieurs virements
+              must_be_from_different_accounts: Le virement doit concerner des comptes
+                différents
+              must_be_from_same_family: Le virement doit provenir du même foyer
+              must_be_within_date_range: Les dates des transactions du virement doivent
+                être espacées de 4 jours maximum
+              must_have_opposite_amounts: Les transactions du virement doivent avoir
+                des montants opposés
+              must_have_single_currency: Le virement doit être dans une seule devise
+              outflow_cannot_be_in_multiple_transfers: La transaction sortante ne
+                peut pas faire partie de plusieurs virements
+  transfer:
+    name: Virement vers %{to_account}
+    payment_name: Paiement vers %{to_account}

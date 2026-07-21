@@ -1,0 +1,69 @@
+---
+fr:
+  pages:
+    changelog:
+      date_unavailable: Date indisponible
+      no_release_notes: Aucune note de version disponible
+      title: Nouveautés
+    dashboard:
+      balance_sheet:
+        add_accounts_prompt: Ajoutez vos comptes de type %{classification} pour
+          voir une répartition complète
+        name: Nom
+        no_accounts: Aucun compte de type %{classification} pour le moment
+        value: Valeur
+        weight: Poids
+      cashflow_sankey:
+        add_transaction: Ajouter une transaction
+        no_data_subtitle: Ajoutez des transactions pour afficher les flux de
+          trésorerie ou élargissez la période
+        no_data_title: Aucune donnée de flux de trésorerie pour cette période
+        title: Flux de trésorerie
+      header:
+        new_account: Nouveau
+        shutdown_notice:
+          export_data_html: Vous avez jusqu'au 31 juillet 2025 pour exporter vos
+            données. Vous pouvez le faire %{link}.
+          export_link: ici
+          intro: "Nous avons pris la difficile décision de fermer la version
+            hébergée de Maybe. Voici ce qui se passe ensuite :"
+          read_why: Découvrez pourquoi nous faisons cela ici
+          refunded: Vous serez intégralement remboursé.
+        subtitle: Voici ce qui se passe avec vos finances
+        welcome: Bon retour, %{name}
+      net_worth_chart:
+        data_not_available: Données non disponibles pour la période sélectionnée
+        title: Patrimoine net
+      no_account_empty_state:
+        new_account: Nouveau compte
+        no_account_subtitle: Aucun compte n'a encore été ajouté, il n'y a donc
+          pas de données à afficher. Ajoutez vos premiers comptes pour commencer
+          à consulter les données de votre tableau de bord.
+        no_account_title: Aucun compte pour le moment
+      no_accounts_graph_placeholder:
+        add_account: Ajouter un compte
+        subtitle: Ajoutez des comptes pour afficher les données de patrimoine net
+        title: Aucun compte pour le moment
+    feedback:
+      bug_report: Signaler un bug
+      discord: Discuter de Maybe avec d'autres utilisateurs
+      feature_request: Proposer une fonctionnalité
+      heading: Laisser un avis
+      subtitle: Faites-nous part de vos retours. N'hésitez pas à inclure des
+        liens vers des vidéos ou des captures d'écran.
+      title: Retours
+    redis_configuration_error:
+      heading: Configuration de Redis requise
+      refresh_button: Actualiser la page
+      refresh_hint: Une fois Redis configuré, actualisez cette page pour continuer.
+      setup_guide_hint: Suivez notre guide de configuration Docker complet pour
+        configurer Redis
+      subtitle: Votre installation Maybe auto-hébergée nécessite que Redis soit
+        correctement configuré.
+      title: Configuration de Redis requise - Maybe
+      view_setup_guide: Voir le guide de configuration
+      why_body: Maybe utilise Redis pour faire fonctionner les tâches Sidekiq en
+        arrière-plan, comme la synchronisation des données de compte, le
+        traitement des imports et d'autres opérations qui maintiennent vos
+        données financières à jour.
+      why_title: Pourquoi Redis est-il nécessaire ?

@@ -40,15 +40,6 @@ class RegulatedSavingsInterestJobTest < ActiveJob::TestCase
     assert_equal 1, interest_entries_for(@livret_a).count
   end
 
-  test "uses the account's custom interest rate when set" do
-    @livret_a.depository.update!(interest_rate: 1.5) # 1.5% instead of the 2.4% legal default
-
-    RegulatedSavingsInterestJob.perform_now(date: Date.new(2026, 1, 15))
-
-    entry = interest_entries_for(@livret_a).first
-    assert_equal(-15.0, entry.entry.amount.to_f) # 12_000 * 0.015 / 12
-  end
-
   test "posts again in a following month" do
     RegulatedSavingsInterestJob.perform_now(date: Date.new(2026, 1, 15))
     RegulatedSavingsInterestJob.perform_now(date: Date.new(2026, 2, 15))

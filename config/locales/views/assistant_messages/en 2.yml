@@ -1,0 +1,8 @@
+en:
+  assistant_messages:
+    assistant_message:
+      reasoning_label: Assistant reasoning
+    tool_calls:
+      title: Tool Calls
+      function_label: "Function:"
+      arguments_label: "Arguments:"

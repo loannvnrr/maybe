@@ -1,0 +1,63 @@
+---
+en:
+  rules:
+    category_rule_cta:
+      create_rule: Create rule
+      description: You can create a rule to automatically categorize transactions like this one
+      dismiss: Dismiss
+      dont_show_again: Don't show this again
+      updated_to: "Updated to %{category}"
+    confirm:
+      body_prefix: You are about to apply this rule to
+      body_suffix: that meet the specified rule criteria. Please confirm if you wish to proceed with this change.
+      confirm_button: Confirm changes
+      title: Confirm changes
+      title_named: 'Confirm changes to "%{name}"'
+    edit:
+      back_to_rules: Back to rules
+      title: "Edit %{resource_type} rule"
+      title_named: 'Edit %{resource_type} rule "%{name}"'
+    form:
+      add_action: Add action
+      add_condition: Add condition
+      add_condition_group: Add condition group
+      all_past_future: "All past and future %{resource_type}"
+      for_label: FOR
+      if_label: IF
+      name_label: Rule name (optional)
+      name_placeholder: Enter a name for this rule
+      starting_from: Starting from
+      then_label: THEN
+    index:
+      ai_rules_warning: AI-enabled rule actions will cost money. Be sure to filter as narrowly as possible to avoid unnecessary costs.
+      delete_all: Delete all rules
+      delete_all_resource_name: all rules
+      empty_description: Set up rules to perform actions to your transactions and other data on every account sync.
+      empty_title: No rules yet
+      new: New rule
+      sort_by: "Sort by:"
+      sort_options:
+        name: Name
+        updated_at: Updated At
+      title: Rules
+      toggle_sort_direction: Toggle sort direction
+    new:
+      back_to_rules: Back to rules
+      title: "New %{resource_type} rule"
+    rule:
+      action_with_value: "%{action} to %{value}"
+      all_past_future: "All past and future %{resource_type}"
+      delete: Delete
+      delete_resource_name: rule
+      edit: Edit
+      for_label: FOR
+      if_label: IF
+      more_actions:
+        one: and %{count} more action
+        other: and %{count} more actions
+      more_conditions:
+        one: and %{count} more condition
+        other: and %{count} more conditions
+      on_or_after: "%{resource_type} on or after %{date}"
+      reapply: Re-apply rule
+      then_label: THEN

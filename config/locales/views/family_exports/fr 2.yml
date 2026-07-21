@@ -1,0 +1,21 @@
+---
+fr:
+  family_exports:
+    list:
+      download: Télécharger
+      empty: Aucun export pour le moment
+      export_from: "Export du %{date}"
+      exporting: Export en cours...
+      failed: Échec
+    new:
+      cancel: Annuler
+      included_accounts: Tous les comptes et soldes
+      included_categories: Catégories et tags
+      included_title: "Contenu de l'export :"
+      included_trades: Opérations d'investissement
+      included_transactions: Historique des transactions
+      note_body: Cet export contient l'ensemble de vos données, mais seule une partie peut être réimportée dans Maybe via la fonction d'import CSV. Nous prenons en charge l'import des comptes, des transactions (avec catégorie et tags) et des opérations boursières. Les autres données de compte ne peuvent pas être importées et sont fournies à titre indicatif uniquement.
+      note_label: "Remarque :"
+      submit: Exporter les données
+      subtitle: Téléchargez l'ensemble de vos données financières
+      title: Exporter vos données

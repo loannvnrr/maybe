@@ -8,5 +8,6 @@ en:
       subtype_prompt: Select account type
       interest_rate: Annual interest rate (%)
       interest_rate_placeholder: "2.5"
+      interest_rate_help: Leave blank to use the current legal rate for this account type.
     new:
       title: Enter account balance

@@ -1,0 +1,63 @@
+---
+fr:
+  rules:
+    category_rule_cta:
+      create_rule: Créer une règle
+      description: Vous pouvez créer une règle pour catégoriser automatiquement les transactions similaires à celle-ci
+      dismiss: Ignorer
+      dont_show_again: Ne plus afficher ce message
+      updated_to: "Mise à jour vers %{category}"
+    confirm:
+      body_prefix: Vous êtes sur le point d'appliquer cette règle à
+      body_suffix: qui correspondent aux critères définis. Veuillez confirmer si vous souhaitez continuer.
+      confirm_button: Confirmer les modifications
+      title: Confirmer les modifications
+      title_named: 'Confirmer les modifications de « %{name} »'
+    edit:
+      back_to_rules: Retour aux règles
+      title: "Modifier la règle de %{resource_type}"
+      title_named: 'Modifier la règle de %{resource_type} « %{name} »'
+    form:
+      add_action: Ajouter une action
+      add_condition: Ajouter une condition
+      add_condition_group: Ajouter un groupe de conditions
+      all_past_future: "Toutes les %{resource_type} passées et futures"
+      for_label: POUR
+      if_label: SI
+      name_label: Nom de la règle (facultatif)
+      name_placeholder: Saisissez un nom pour cette règle
+      starting_from: À partir du
+      then_label: ALORS
+    index:
+      ai_rules_warning: Les actions de règle basées sur l'IA sont payantes. Filtrez le plus précisément possible pour éviter des coûts inutiles.
+      delete_all: Supprimer toutes les règles
+      delete_all_resource_name: toutes les règles
+      empty_description: Créez des règles pour effectuer des actions sur vos transactions et vos autres données à chaque synchronisation de compte.
+      empty_title: Aucune règle pour le moment
+      new: Nouvelle règle
+      sort_by: "Trier par :"
+      sort_options:
+        name: Nom
+        updated_at: Dernière modification
+      title: Règles
+      toggle_sort_direction: Inverser l'ordre de tri
+    new:
+      back_to_rules: Retour aux règles
+      title: "Nouvelle règle de %{resource_type}"
+    rule:
+      action_with_value: "%{action} : %{value}"
+      all_past_future: "Toutes les %{resource_type} passées et futures"
+      delete: Supprimer
+      delete_resource_name: cette règle
+      edit: Modifier
+      for_label: POUR
+      if_label: SI
+      more_actions:
+        one: et %{count} action supplémentaire
+        other: et %{count} actions supplémentaires
+      more_conditions:
+        one: et %{count} condition supplémentaire
+        other: et %{count} conditions supplémentaires
+      on_or_after: "%{resource_type} à partir du %{date}"
+      reapply: Réappliquer la règle
+      then_label: ALORS

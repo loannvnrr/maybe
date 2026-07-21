@@ -5,10 +5,6 @@
 # Interest is approximated as: end-of-month balance x (annual rate / 12).
 # This is a simplification of the official "quinzaines" calculation method used
 # by French banks, which is considered unnecessary precision for personal tracking.
-#
-# The annual rate defaults to the statutory rate in Depository::REGULATED_SAVINGS,
-# but can be overridden per account via the depository's `interest_rate` field
-# (stored as a percentage, e.g. 1.5) since the legal rate changes periodically.
 class RegulatedSavingsInterestJob < ApplicationJob
   queue_as :scheduled
 
@@ -29,9 +25,7 @@ class RegulatedSavingsInterestJob < ApplicationJob
       return if already_posted?(account, date)
 
       info = Depository::REGULATED_SAVINGS.fetch(account.subtype)
-      custom_rate = account.depository.interest_rate
-      annual_rate = custom_rate.present? ? custom_rate.to_d / 100 : info[:rate]
-      interest = (account.balance.to_d * annual_rate / 12).round(2)
+      interest = (account.balance.to_d * info[:rate] / 12).round(2)
       return if interest <= 0
 
       entry = account.entries.create!(

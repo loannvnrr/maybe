@@ -1,0 +1,10 @@
+---
+fr:
+  password_mailer:
+    password_reset:
+      cta: Réinitialiser votre mot de passe
+      ignore_if_not_requested: Si vous n'êtes pas à l'origine de cette demande,
+        vous pouvez ignorer cet e-mail.
+      request_made: Une demande de réinitialisation de votre mot de passe Maybe
+        a été effectuée. Cliquez sur le lien pour le réinitialiser.
+      subject: 'Maybe : Réinitialisez votre mot de passe'

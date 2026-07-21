@@ -1,0 +1,20 @@
+fr:
+  subscriptions:
+    self_hosted_alert: "Maybe+ n'est pas disponible en mode auto-hébergé."
+    plan_choice:
+      billed_annually: Facturé annuellement, 2 mois offerts
+      billed_monthly: Facturé mensuellement
+      per_week_note: "soit %{price}/semaine"
+    upgrade:
+      title: Passer à l'offre supérieure
+      account_settings: Paramètres du compte
+      sign_out: Se déconnecter
+      trial_remaining: Il vous reste %{days} jours d'essai
+      trial_over: Votre essai est terminé
+      unlock: Débloquez
+      maybe: Maybe
+      today: dès aujourd'hui
+      pick_plan: Pour continuer à utiliser Maybe, choisissez une offre ci-dessous.
+      subscribe: S'abonner et débloquer Maybe
+      stripe_redirect_note: À l'étape suivante, vous serez redirigé vers Stripe,
+        qui gère notre facturation.

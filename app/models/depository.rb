@@ -14,9 +14,11 @@ class Depository < ApplicationRecord
     "assurance_vie" => { short: "Assurance-vie", long: "Assurance-vie (fonds euros)" }
   }.freeze
 
-  # Livrets d'épargne réglementée : taux et plafonds fixés par la loi française,
-  # non modifiables par compte. Les intérêts sont exonérés d'impôt sur le revenu
-  # et de prélèvements sociaux.
+  # Livrets d'épargne réglementée : taux légaux par défaut et plafonds fixés par
+  # la loi française. Le taux peut être surchargé par compte (colonne
+  # `interest_rate`) car il change périodiquement par décret ; le plafond reste
+  # fixe. Les intérêts sont exonérés d'impôt sur le revenu et de prélèvements
+  # sociaux.
   REGULATED_SAVINGS = {
     "livret_a" => { rate: 0.024, cap: 22_950, tax_free: true },
     "ldds" => { rate: 0.024, cap: 12_000, tax_free: true },

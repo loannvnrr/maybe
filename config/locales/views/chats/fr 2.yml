@@ -1,0 +1,38 @@
+fr:
+  chats:
+    index:
+      title: Conversations
+      new_chat: Nouvelle conversation
+    ai_avatar:
+      alt: IA
+    ai_consent:
+      title: Activer l'IA Maybe
+      description: L'IA Maybe peut répondre à des questions financières et fournir des analyses basées sur vos données. Pour utiliser cette fonctionnalité, vous devrez l'activer explicitement.
+      self_hosted_html: Pour utiliser l'assistant IA, vous devez définir la variable d'environnement %{env_var} sur votre instance auto-hébergée.
+      enable_button: Activer l'IA Maybe
+      footer_note: Désactivable à tout moment. Toutes les données envoyées à nos fournisseurs de modèles d'IA sont anonymisées.
+    ai_greeting:
+      greeting: "Bonjour %{name} ! Je suis une IA créée par Maybe pour vous aider avec vos finances. J'ai accès au web et aux données de votre compte."
+      default_name: ""
+      commands_hint_html: 'Vous pouvez utiliser <span class="bg-container border border-secondary px-1.5 py-0.5 rounded font-mono text-xs">/</span> pour accéder aux commandes'
+      questions_intro: "Voici quelques questions que vous pouvez poser :"
+      question_portfolio: Évaluer le portefeuille d'investissement
+      question_spending: Afficher les analyses de dépenses
+      question_patterns: Détecter des schémas inhabituels
+    chat:
+      edit_chat_title: Modifier le titre de la conversation
+      delete_chat: Supprimer la conversation
+      delete_resource_name: cette conversation
+    chat_nav:
+      all_chats: Toutes les conversations
+      start_new_chat: Démarrer une nouvelle conversation
+      delete_resource_name: cette conversation
+      edit_chat_title: Modifier le titre de la conversation
+      delete_chat: Supprimer la conversation
+    chat_title:
+      new_chat: Nouvelle conversation
+    error:
+      failed_message: "Échec de la génération de la réponse. Veuillez réessayer."
+      retry: Réessayer
+    thinking_indicator:
+      default_message: "En train de réfléchir..."

@@ -1,7 +1,7 @@
 <%# locals: (account:, url:) %>
 
 <%= render "accounts/form", account: account, url: url do |form| %>
-  <div data-controller="subtype-conditional-field" data-subtype-conditional-field-subtypes-value='["assurance_vie"]'>
+  <div data-controller="subtype-conditional-field" data-subtype-conditional-field-subtypes-value='<%= Depository::REGULATED_SAVINGS.keys.push("assurance_vie").to_json %>'>
     <%= form.select :subtype,
                    Depository::SUBTYPES.map { |k, v| [v[:long], k] },
                    { label: true, prompt: t("depositories.form.subtype_prompt"), include_blank: t("depositories.form.none") },
@@ -11,6 +11,7 @@
       <%= form.fields_for :accountable do |depository_form| %>
         <%= depository_form.number_field :interest_rate,
                                         label: t("depositories.form.interest_rate"),
+                                        label_tooltip: t("depositories.form.interest_rate_help"),
                                         placeholder: t("depositories.form.interest_rate_placeholder"),
                                         min: 0,
                                         step: 0.001 %>

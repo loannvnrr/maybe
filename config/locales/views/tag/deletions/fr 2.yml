@@ -1,0 +1,16 @@
+---
+fr:
+  tag:
+    deletions:
+      create:
+        deleted: Étiquette supprimée
+      new:
+        delete_and_leave_uncategorized: Supprimer "%{tag_name}"
+        delete_and_recategorize: Supprimer "%{tag_name}" et assigner une nouvelle étiquette
+        delete_tag: Supprimer l'étiquette ?
+        explanation: "%{tag_name} sera retiré des transactions et des autres éléments
+          associés. Plutôt que de les laisser sans étiquette, vous pouvez également
+          en assigner une nouvelle ci-dessous."
+        replacement_tag_prompt: Sélectionner une étiquette
+        tag: Étiquette
+        delete_and_reassign: Supprimer et réassigner
